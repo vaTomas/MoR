@@ -1,6 +1,6 @@
 \documentclass[journal, a4paper]{IEEEtran}
 
-
+\usepackage{hyperref}
 
 
 
@@ -19,6 +19,7 @@
         Florencio~N.~Pulido,~\IEEEmembership{CPE Student,~MMCM,}
         and~Vincent~Alfred~B.~Tomas,~\IEEEmembership{ECE Student,~MMCM}% <-this % stops a space
 }
+
 
 
 % The paper headers
@@ -47,7 +48,7 @@ The abstract goes here.
 
 
 \section{Introduction}
-
+Hellow this is
 \IEEEPARstart{B}{riefly} introduce your topic, research question, and the purpose of your review.
 \begin{itemize}
   \item Briefly introduce the importance of structural health monitoring (SHM) and its role in ensuring safety and preventing infrastructure failures.
@@ -126,16 +127,14 @@ The abstract goes here.
 \fi
 
 
+% === Bibliography ===
+% Comment out this line before publishing.
+This is a paper \cite{Dolati2023} and \cite{Katunin2023} also \cite{Swit2023}.
 
-\begin{thebibliography}{1}
+\bibliographystyle{IEEEtran}
+\bibliography{bibtex/bib/references}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
-
-
+% === End of Bibliography ===
 
 
 \end{document}
