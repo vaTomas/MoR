@@ -320,7 +320,7 @@ As seen in \autoref{tbl:bresearchers} \lipsum[1]
       Hasan A.                   & 1     & 602   &  31         \\
       Rodulf K. A.               & 1     & 100   &  11         \\
       Libre F. C.                & 1     & 195   &  18         \\
-      Gigometre S.               & 1     & 515   &  7          \\
+      Change M. E.               & 1     & 515   &  7          \\
       \bottomrule
   \end{tabular}
 \end{table}
@@ -344,7 +344,7 @@ It is imperative as shown in \autoref{tbl:articleCites} \lipsum[1]
       Author Name       \cite{}           &    331         \\
       Rodulf K. A.      \cite{}      &    141         \\
       Libre F. C.       \cite{}     &    118         \\
-      Gigometre S.      \cite{}          &    71          \\
+      Change M. E.      \cite{}          &    71          \\
       \bottomrule
   \end{tabular}
 \end{table}
@@ -354,28 +354,23 @@ Hence, the data in \autoref{tbl:articleCites} \lipsum[1]
 
 
 \subsection{Keyword Analysis}
-That the closer as show in \autoref{fig:co_occurrence} \lipsum[1]
+That the closer as show in \autoref{fig:coOccuranceNetwork} \lipsum[1]
 
-\begin{figure}[htbp]
+\begin{figure}[h]
   \centering
-  \begin{tikzpicture}[scale=0.8]
-    \node[circle,draw,minimum size=1cm] (word1) at (0,0) {Word 1};
-    \node[circle,draw,minimum size=1.5cm] (word2) [right=of word1] {Word 2};
-    \node[circle,draw,minimum size=1.2cm] (word3) [below=of word1] {Word 3};
-    \node[circle,draw,minimum size=1.8cm] (word4) [right=of word3] {Word 4};
-    
-    \draw (word1) -- (word2);
-    \draw (word1) -- (word3);
-    \draw (word1) -- (word4);
-    \draw (word2) -- (word3);
-    \draw (word2) -- (word4);
-    \draw (word3) -- (word4);
-  \end{tikzpicture}
-  \caption{Co-occurrence Network of Words}
-  \label{fig:co_occurrence}
+  \includegraphics[width=\columnwidth]{./img/co_occurance_network.jpg}
+  \caption{Co-occurance network of keywords in NDT SHM}
+  \label{fig:coOccuranceNetwork}
 \end{figure}
 
-However, unlike with \autoref{fig:co_occurrence} \lipsum[1]
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{./img/co_occurance_network_shm.jpg}
+  \caption{SHM co-occurance network of keywords in NDT SHM}
+  \label{fig:coOccuranceNetworkSHM}
+\end{figure}
+
+However, unlike with \autoref{fig:coOccuranceNetworkSHM} \lipsum[1]
 
 
 
