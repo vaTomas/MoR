@@ -9,10 +9,13 @@
 \usepackage{siunitx}              % SI Units
 \usepackage{booktabs}             % Tables
 \usepackage{caption}              % Captions
+
+
 \usepackage{graphicx}             % Images or Graphics
+\usepackage{pgfplots}             % Graphs and Plots
 
-
-
+\usetikzlibrary{mindmap}
+\usetikzlibrary{positioning}
 
 
 % correct bad hyphenation here
@@ -75,7 +78,7 @@ A portable, Non-Destructive Testing (NDT) device presents a promising solution f
 overcoming the limitations of traditional methods \cite{Guo2022} \cite{Chen2023}.
 The objective of this capstone project is to explore the potential of a portable,
 NDT device in overcoming the limitations of traditional SHM methods.
-\\
+
 SHM is a field dedicated to the ongoing monitoring and evaluation of the structural integrity
 of various infrastructure systems \cite{Katam2023}, NDT is a method that enables the assessment
 of structural degradation without causing actual damage to the structure itself \cite{Katam2023},
@@ -91,6 +94,31 @@ and ensuring the safety of various infrastructures \cite{Chen2021} \cite{Gharehb
 
 \section{Methodology}
 \lipsum[3]
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+        ybar,
+        width=0.9\columnwidth,                                          % Adjust the width of the plot
+        bar width=6pt,                                                  % Adjust the width of the bars
+        xlabel={Year},                                                  % Label for the x-axis
+        ylabel={Number of Publications},                                % Label for the y-axis
+        xtick=data,                                                     % Use data points as x-axis labels
+        xticklabels={2021, 2022, 2023, 2024},                           % Labels for the x-axis ticks
+        ymin=0,                                                         % Set the minimum value for the y-axis
+        enlarge x limits=0.15,                                          % Add space to the left and right of the x-axis
+        enlarge y limits=0.1,                                           % Add space to the top and bottom of the y-axis
+        legend style={at={(0.5,-0.15)},anchor=north,legend columns=-1},
+      ]
+      \addplot coordinates {(2021, 5)  (2022, 4)  (2023, 5) (2024, 8)};
+    \end{axis}
+  \end{tikzpicture}
+  \caption{Number of Publications Over the Years}
+  \label{fig:publications}
+\end{figure}
+
+\lipsum[1]
 
 
 \section{Results and Discussion of Scientometric review}
@@ -120,7 +148,80 @@ and ensuring the safety of various infrastructures \cite{Chen2021} \cite{Gharehb
 \end{table}
 
 
-\section{Literature Review}
+\subsection{Active Researchers}
+\lipsum[1]
+
+\begin{table}[htbp]
+
+  \centering
+  \caption{Top Researchers}
+  \label{tbl:bresearchers}
+  \begin{tabular}{lccc}
+
+      \toprule
+      \textbf{Author} & \textbf{Documents} & \textbf{Citations} & \textbf{TLS} \\
+      \midrule
+      Hasan A.                   & 1     & 602   &  31         \\
+      Rodulf K. A.               & 1     & 100   &  11         \\
+      Libre F. C.                & 1     & 195   &  18         \\
+      Gigometre S.               & 1     & 515   &  7          \\
+      \bottomrule
+  \end{tabular}
+\end{table}
+
+\lipsum[1]
+
+
+\subsection{Article Sitation Analysis}
+\lipsum[1]
+
+\begin{table}[htbp]
+
+  \centering
+  \caption{Top-Cited Articles}
+  \label{tbl:articleCites}
+  \begin{tabular}{lcc}
+
+      \toprule
+      \textbf{Article} & \textbf{No. of Citation} \\
+      \midrule
+      Author Name       \cite{Hu2023}           &    331         \\
+      Rodulf K. A.      \cite{Lingxin2022}      &    141         \\
+      Libre F. C.       \cite{Entezami2020}     &    118         \\
+      Gigometre S.      \cite{Lee2023}          &    71          \\
+      \bottomrule
+  \end{tabular}
+\end{table}
+
+\lipsum[1]
+
+
+\subsection{Keyword Analysis}
+\lipsum[1]
+
+\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}[scale=0.8]
+    \node[circle,draw,minimum size=1cm] (word1) at (0,0) {Word 1};
+    \node[circle,draw,minimum size=1.5cm] (word2) [right=of word1] {Word 2};
+    \node[circle,draw,minimum size=1.2cm] (word3) [below=of word1] {Word 3};
+    \node[circle,draw,minimum size=1.8cm] (word4) [right=of word3] {Word 4};
+    
+    \draw (word1) -- (word2);
+    \draw (word1) -- (word3);
+    \draw (word1) -- (word4);
+    \draw (word2) -- (word3);
+    \draw (word2) -- (word4);
+    \draw (word3) -- (word4);
+  \end{tikzpicture}
+  \caption{Co-occurrence Network of Words}
+  \label{fig:co_occurrence}
+\end{figure}
+
+\lipsum[1]
+
+
+\section{Results and Discussion of Systematic Review}
 
 \subsection{Existing Portable NDT Devices}
 Recent research and development efforts have led to significant advancements in portable NDT devices
@@ -168,7 +269,7 @@ and advancements in sensor technologies, which have led to remarkable improvemen
 including residential, commercial, industrial, historical, and special buildings \cite{Vijayan2023} \cite{Hassani2023}. 
 
 
-\section{Synthesis and Critique}  % Results and discussion of scientometric review
+\subsection{Synthesis and Critique}
 The literature review reveals significant advancements in sensor technologies and data analytics
 for NDT and SHM,
 while also highlighting limitations and research gaps that need to be addressed for optimal infrastructure safety \cite{Vijayan2023} \cite{Hassani2023}.
@@ -181,7 +282,7 @@ wireless sensors, cloud computing, and artificial intelligence for improved anal
 and efficient troubleshooting \cite{Meier2018}.
 
 
-\section{Conclusion}  %  Discussion and future directions
+\section{Discussion and Future Directions}  %  Discussion and future directions
 The research question of this capstone project is to explore the potential of a portable,
 NDT device in overcoming the limitations of traditional SHM methods,
 and the literature review reveals significant advancements in sensor technologies and data analytics for NDT and SHM,
@@ -197,7 +298,8 @@ and the expected outcomes include improved efficiency and accessibility in SHM.
 
 
 
-
+\section*{Acknowledgment}
+The authors would like to thank \lipsum[1]
 
 
 
