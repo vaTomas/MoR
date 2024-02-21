@@ -108,6 +108,8 @@ which returned 223 results.
 
 Then filtered by sunject areas by "Engineering" returning 165 results.
 
+Wherein NDT E International has the most with a count of 46 results.
+
 Years
 2024 (64)
 2023 (156)
@@ -242,26 +244,32 @@ synthesis in our research on developing a portable NDT device for efficient stru
 
 
 
+
 \begin{figure}
   \centering
+
   \begin{tikzpicture}
     \begin{axis}[
         ybar,
         width=0.9\columnwidth,                                          % Adjust the width of the plot
-        bar width=6pt,                                                  % Adjust the width of the bars
+        bar width=8pt,                                                  % Adjust the width of the bars
         xlabel={Year},                                                  % Label for the x-axis
         ylabel={Number of Publications},                                % Label for the y-axis
         xtick=data,                                                     % Use data points as x-axis labels
-        xticklabels={2021, 2022, 2023, 2024},                           % Labels for the x-axis ticks
+        xticklabels={2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024},                           % Labels for the x-axis ticks
+        ticklabel style={font=\footnotesize}, % Set the font size for the x-axis tick labels
         ymin=0,                                                         % Set the minimum value for the y-axis
-        enlarge x limits=0.15,                                          % Add space to the left and right of the x-axis
         enlarge y limits=0.1,                                           % Add space to the top and bottom of the y-axis
-        legend style={at={(0.5,-0.15)},anchor=north,legend columns=-1},
+        legend style={draw=none}, % Remove the legend
+        axis x line=bottom,  % Align x-axis line with ticks
+        axis y line=left,    % Align y-axis line with ticks
+        xmin=2014.5,                                                    % Set xmin to create a margin to the left of 2015
+        xmax=2024.5,                                                    % Set xmax to create a margin to the right of 2024
       ]
-      \addplot coordinates {(2021, 5)  (2022, 4)  (2023, 5) (2024, 8)};
+      \addplot+ [fill=black, draw=none]  coordinates {(2015, 57) (2016, 74) (2017, 65)  (2018, 79) (2019, 88) (2020, 108) (2021, 122)  (2022, 137)  (2023, 156) (2024, 64)};
     \end{axis}
   \end{tikzpicture}
-  \caption{Number of Publications Over the Years}
+  \caption{Annual Publications Over the Years About SHM and NDT}
   \label{fig:publications}
 \end{figure}
 
