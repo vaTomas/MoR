@@ -2,6 +2,7 @@
 
 \usepackage[hidelinks]{hyperref}  % PDF Hyperlinks
 
+\usepackage{enumitem}             % Lists
 
 \usepackage{lipsum}               % Lorem Ipsum
 
@@ -14,10 +15,18 @@
 \usepackage{graphicx}             % Images or Graphics
 \usepackage{pgfplots}             % Graphs and Plots
 
+
 \usetikzlibrary{mindmap}
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes.geometric, arrows}
 
+\tikzset{
+    objRectangle/.style={rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, text width = 5cm},
+    objRoundRectangle/.style={rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, text width = 5cm},
+    objRectangleMethods/.style={rectangle, minimum height=1cm, text centered, draw=black, text width = 3cm},
+    arrow/.style={thick, ->, >=stealth}
+}
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -94,138 +103,111 @@ and ensuring the safety of various infrastructures \cite{Chen2021} \cite{Gharehb
 
 
 \section{Methodology}
+This study employed both scientometric review and systematic review methodologies to identify the research
+gap in Developing a Portable NDT Device for SHM in construction.
+The schematic representation of our methodology is illustrated in \autoref{fig:flowchartMethod}.
+
+\begin{figure*}[htbp]
+  \centering
+\begin{tikzpicture}[node distance=1.5cm]
+  \node (001) [objRectangleMethods] {Start};
+  \node (002) [objRectangleMethods, right of =001, xshift=2.5cm] {Database Selelcton};
+  \node (003) [objRectangleMethods, below of=002] {Inclusion and Exclusion Criteria};
+  \node (004) [objRectangleMethods, left of =003, xshift=-2.5cm] {Full Text Evaluation and Eligibity of Retrieved};
+
+  \node (sci0) [objRectangleMethods, below of=004, xshift=-3cm, yshift=-0.5cm] {Scientometric review};
+  \node (sci1a) [objRectangleMethods, below of=sci0, xshift=-2cm] {Scientometric review};
+  \node (sci1b) [objRectangleMethods, below of=sci0, xshift=2cm] {Scientometric review};
+
+
+  \node (sys0) [objRectangleMethods, below of=004, xshift=3cm, yshift=-0.5cm] {Systematic review};
+  \node (sys1) [objRectangleMethods, below of=sys0] {Data Extraction };
+  \node (sys2) [objRectangleMethods, below of=sys1] {Identifying Research Gaps and Future Research Directions};
+  
+
+  \draw[arrow] (001) -- (002);
+  \draw[arrow] (002) -- (003);
+  \draw[arrow] (003) -- (004);
+
+  \draw[arrow] (004) -- (sci0);
+  \draw[arrow] (sci0) -- (sci1a);
+  \draw[arrow] (sci0) -- (sci1b);
+
+  \draw[arrow] (004) -- (sys0);
+  \draw[arrow] (sys0) -- (sys1);
+  \draw[arrow] (sys1) -- (sys2);
+
+\end{tikzpicture}
+\caption{Outline of the Review Methodology}
+\label{fig:flowchartMethod}
+\end{figure*}
+
 \subsection{Extraction and Evaluation of Research Data}
-
-As of February 21, 2024
-In Science Direct, we searched in the find articles search bar "NDT, SHM" and it returned 1,169 results.
-
-Next is it is filtered oinly up to 5 years published which resulted into 587 results.
-
-Then it is filtered itno "Research Articles" which resulted into 474 results.
-
-Then filtered includeing NDT International, Measurement, Ultrasonics, Composite SStructures, Procedia Structural Integrity, Sesors and Actuators, Journals of Sound and VIbration, Engineering Structures, Structures, Engineering Applicaitons for AI, and lastly Reliability Safety
-which returned 223 results.
-
-Then filtered by sunject areas by "Engineering" returning 165 results.
-
-Wherein NDT E International has the most with a count of 46 results.
-
-Years
-2024 (64)
-2023 (156)
-2022 (137)
-2021 (122)
-2020 (108)
-2019 (88)
-2018 (79)
-2017 (65)
-2016 (74)
-2015 (57)
-2014 (50)
-2013 (32)
-2012 (21)
-2011 (20)
-2010 (19)
-2009 (13)
-2008 (11)
-2007 (9)
-2006 (1)
-2004 (2)
-2003 (1)
-2002 (2)
-1997 (3)
-1996 (2)
-1995 (1)
-
-
-Review articles (56)
-Research articles (474)
-Encyclopedia (6)
-Book chapters (25)
-Data articles (3)
-Editorials (1)
-Mini reviews (1)
-Short communications (10)
-Software publications (1)
-Other (10)
-
-Publication title
-Mechanical Systems and Signal Processing (60)
-NDT \& E International (46)
-Measurement (37)
-Ultrasonics (36)
-Composite Structures (32)
-Construction and Building Materials (31)
-Procedia Structural Integrity (22)
-Sensors and Actuators A: Physical (15)
-Materials Today: Proceedings (12)
-Automation in Construction (11)
-Journal of Sound and Vibration (11)
-Engineering Structures (9)
-Composites Science and Technology (8)
-Structures (8)
-International Journal of Fatigue (7)
-Applied Acoustics (6)
-Composites Part B: Engineering (6)
-Composites Part A: Applied Science and Manufacturing (5)
-IFAC-PapersOnLine (5)
-Engineering Fracture Mechanics (4)
-Engineering Failure Analysis (4)
-Engineering Applications of Artificial Intelligence (4)
-International Journal of Solids and Structures (4)
-Reliability Engineering \& System Safety (3)
-Renewable Energy (3)
-
-
-For our research, scholarly articles were extracted from the
-\href{https://www.sciencedirect.com/}{ScienceDirect (Elsevier)} platform.
+For our research, scholarly articles were extracted from the \href{https://www.sciencedirect.com/}{ScienceDirect (Elsevier)} platform.
 This database offers comprehensive coverage of various scientific publications,
-especially those that correlate with the field of structural engineering and NDT
+especially those that correlate with the field of structural engineering and NDT,
 which are integral to our study.
 
-To proceed, 4 sets of keywords were carefully curated to narrow the search and ensure that results focused
-specifically on the various aspects of our research topic. The exact keyword sets were then used as criteria
-for filtering and searching articles in ScienceDirect:
+To proceed, two sets of keywords were carefully curated to narrow the search and ensure that
+results focused specifically on the various aspects of our research topic. The exact keyword
+settts were then used as criteria for filtering and searching articles in \href{https://www.sciencedirect.com/}{ScienceDirect}:
 
-\begin{enumerate}
-  \item NDT, Non-destructive testing, Portable NDT, Handheld NDT, Portable inspection device, Portable sensing device
-  \item SHM, Structural health monitoring, Structural integrity, Safety assessment, Condition monitoring
-  \item Ultrasonic, Ultrasonic testing, Concrete inspection, Concrete testing
-  \item Miniaturization, Wireless communication, Internet of Things (IoT), Sensor networks, Real-time monitoring
+\begin{enumerate}[label={Keyword Set \arabic*:}, leftmargin=*]
+  \item NDT, Non-destructive testing, Portable NDT, Handheld NDT, Portable inspection device, Portable sensing device.
+  \item SHM, Structural health monitoring, Structural integrity, Safety assessment, Condition monitoring.
 \end{enumerate}
 
-By utilizing these carefully curated keyword sets,
-we aimed to ensure that the extracted articles were highly relevant to our research objectives on developing
-a portable NDT device for efficient structural health monitoring, particularly focusing on ultrasonic testing
-in concrete structures. 
-
-In addition to the keyword sets, we applied exclusion and inclusion criteria to refine the search results further.
-Firstly, we limited the publication timeframe to the years 2019-2024 to ensure that the retrieved articles reflect
-recent advancements and developments in the field. This custom date range allowed us to access the most up-to-date
-research findings and methodologies relevant to our study.
-
-Furthermore, only research publications were taken into consideration for inclusion since they offer thorough
-analyses and factual data that are crucial for guiding our analysis and research technique.
+The total number of articles retrieved from the keyword search were 1169 titles.
+However,to refine the search results further we applied exclusion and inclusion criteria.
+The following criteria are;
+(1) We limited the publication timeframe to the years 2019-2024 to ensure that the retrieved
+articles reflect recent advancements and developments in the field.
+This custom date range allowed us to access the most up-to-date research findings and methodologies relevant to our study;
+(2) We only considered articles falling within the subject area of engineering to
+ensure alignment with the interdisciplinary nature of our research topic.
+By focusing on engineering-related publications, we aimed to draw from a diverse range of
+studies and methodologies that contribute to the advancement of structural safety and non-destructive testing techniques;
+(3) Only research publications were taken into consideration for inclusion since they offer thorough analyses and factual
+data that are crucial for guiding our analysis and research technique.
 The prioritization of articles from reputable engineering publications, such as Construction and Building Materials,
-NDT and E International, Structures, and Ultrasonics, was based on their relevance to our study aims
-and their significance in the area.
+NDT \& E International, Structures, and Ultrasonics, was based on their relevance to our study aims and their
+significance in the area.
 
-Lastly, articles falling within the subject area of engineering were selected to ensure alignment
-with the interdisciplinary nature of our research topic. By focusing on engineering-related publications,
-we aimed to draw from a diverse range of studies and methodologies that contribute to the advancement
-of structural safety and non-destructive testing techniques.
+Subsequent application of the inclusion and exclusion criteria resulted in the exclusion of 587 articles based on year published,
+titles, and abstract screening. Manual research gap analysis and text evaluation further refined the selection,
+leading to the exclusion of an additional 223 articles. Among the remaining articles, 165 underwent full-text evaluation,
+and 135 were excluded based on subject relevance and alignment with study objectives.
 
-The total number of articles retrieved from the keyword search were 263 titles.
-Subsequent application of the inclusion and exclusion criteria resulted in the exclusion of
-77 articles based on year published, titles, and abstract screening. Manual research gap analysis
-and text evaluation further refined the selection, leading to the exclusion of an additional 48 articles.
-Among the remaining articles, 138 were focused on engineering, indicating their relevance to our research topic.
-However, after thorough evaluation, 109 articles were excluded based on subject relevance and alignment with our study objectives.
+The application of our methodological approach resulted in the inclusion of 30 studies that met the predefined
+criteria and were deemed suitable for further analysis and synthesis in our research on developing a portable
+NDT device for efficient structural health monitoring as shown in \autoref{fig:flowchartFilter}.
 
-In summary, the application of our  methodological approach resulted in the inclusion of
-29 studies that met the predefined criteria and were deemed suitable for further analysis and
-synthesis in our research on developing a portable NDT device for efficient structural health monitoring.
+\lipsum[1]
+\begin{figure}[htbp]
+    \centering
+\begin{tikzpicture}[node distance=1.5cm]
+    
+    \node (001) [objRectangle] {Total Articles Retrieved from Keywords (n=1169)};
+    \node (002) [objRoundRectangle, below of=001] {Apply Inclusion-Exclusion Cirteria (n=587)};
+    \node (003) [objRoundRectangle, below of=002] {Articles Excluded (n= 582)};
+    \node (004) [objRoundRectangle, below of=003] {Titles and Abstract Screening, Manual Research Gap and Text Evaluation (n=223)};
+    \node (005) [objRoundRectangle, below of=004] {Articles Excluded (n= 364)};
+    \node (006) [objRoundRectangle, below of=005] {Full-text Evaluation and Eligibity (n=165)};
+    \node (007) [objRoundRectangle, below of=006] {Articles Excluded (n=130)} ;
+    \node (008) [objRectangle, below of=007] {Included Studies (n=35)};
+    
+    \draw [arrow] (001) -- (002);
+    \draw [arrow] (002) -- (003);
+    \draw [arrow] (003) -- (004);
+    \draw [arrow] (004) -- (005);
+    \draw [arrow] (005) -- (006);
+    \draw [arrow] (006) -- (007);
+    \draw [arrow] (007) -- (008);
 
+\end{tikzpicture}
+\caption{Flowchart of the study selection process}
+\label{fig:flowchartFilter}
+\end{figure}
 
 \begin{figure}[h]
   \centering
@@ -235,12 +217,7 @@ synthesis in our research on developing a portable NDT device for efficient stru
 \end{figure}
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[height=2\columnwidth]{./img/methods_flowchart.png}
-  \caption{Flow Diagram of Screening and Selecting Articles}
-  \label{fig:paperFilter}
-\end{figure}
+
 
 
 
@@ -356,19 +333,19 @@ Hence, the data in \autoref{tbl:articleCites} \lipsum[1]
 \subsection{Keyword Analysis}
 That the closer as show in \autoref{fig:coOccuranceNetwork} \lipsum[1]
 
-\begin{figure}[h]
+\begin{figure*}[h] % Use figure* instead of figure for two-column spanning
   \centering
-  \includegraphics[width=\columnwidth]{./img/co_occurance_network.jpg}
-  \caption{Co-occurance network of keywords in NDT SHM}
+  \includegraphics[width=\textwidth]{./word_cloud/filtered/co_occurance_network.jpg}
+  \caption{Co-occurrence network of keywords in NDT SHM}
   \label{fig:coOccuranceNetwork}
-\end{figure}
+\end{figure*}
 
-\begin{figure}[h]
+\begin{figure*}[h] % Use figure* instead of figure for two-column spanning
   \centering
-  \includegraphics[width=\columnwidth]{./img/co_occurance_network_shm.jpg}
-  \caption{SHM co-occurance network of keywords in NDT SHM}
+  \includegraphics[width=\textwidth]{./word_cloud/filtered/co_occurance_network_shm.jpg}
+  \caption{SHM co-occurrence network of keywords in NDT SHM}
   \label{fig:coOccuranceNetworkSHM}
-\end{figure}
+\end{figure*}
 
 However, unlike with \autoref{fig:coOccuranceNetworkSHM} \lipsum[1]
 

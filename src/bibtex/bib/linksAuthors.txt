@@ -1,0 +1,143 @@
+﻿id	author	documents	total link strength
+1	"abdel wahab, magd"	1	6
+2	"aliabadi, ferri m. h."	1	3
+3	"balasubramaniam, kaleeswaran"	1	3
+4	"benedictus, rinze"	1	5
+5	"bevan, rhodri l. t."	1	1
+6	"blanloeuil, p."	1	2
+7	"boll, benjamin"	1	4
+8	"broer, agnes"	1	5
+9	"carani, lucas braga"	1	3
+10	"carcione, a."	1	2
+11	"castro-triguero, rafael"	1	6
+12	"cawley, peter"	1	0
+13	"chandarana, neha"	1	4
+14	"chen, jian"	1	5
+15	"chen, zhishou"	1	2
+16	"cheng, dongxu"	1	5
+17	"cheng, zhou"	1	6
+18	"chiachío, juan"	1	5
+19	"compán, víctor"	1	6
+20	"croxford, anthony j."	1	1
+21	"cuong-le, thanh"	1	6
+22	"cámara, margarita"	1	6
+23	"danek, wojciech"	1	3
+24	"de medeiros, ricardo"	1	4
+25	"de menezes, vanessa g. s."	1	4
+26	"de sá rodrigues, francisco"	1	3
+27	"dong, xianlin"	1	5
+28	"dong, yazhu"	1	5
+29	"eze, vincent obiozo"	1	3
+30	"fang, fang"	1	5
+31	"feng, ju"	1	6
+32	"fiedler, bodo"	1	4
+33	"friswell, michael i."	1	6
+34	"gao, yuan"	1	4
+35	"garcía, carlos"	1	4
+36	"garcía-macías, enrique"	1	6
+37	"gautam, mayank"	1	4
+38	"giannakeas, ilias n."	1	3
+39	"gresil, matthieu"	1	4
+40	"han, dae-hyun"	1	1
+41	"han, tianran"	1	2
+42	"han, zichao"	1	4
+43	"he, mengyue"	1	6
+44	"hussaini, qalandar ali"	1	3
+45	"infantes, maría"	1	6
+46	"kaiyuan, li"	1	6
+47	"kalra, sumit"	1	3
+48	"kanakambaran, srijith"	1	3
+49	"kang, lae-hyong"	1	1
+50	"katunin, andrzej"	2	3
+51	"khandelwal, arpit"	1	3
+52	"khatir, s."	1	6
+53	"kumar, david"	1	3
+54	"lambinet, f."	1	1
+55	"lan, jianping"	1	3
+56	"li, xiaomeng"	1	5
+57	"liang, ruihong"	1	5
+58	"liang, zhihong"	1	6
+59	"loutas, theodoros h."	1	5
+60	"lu, yong"	1	2
+61	"malinowski, paweł"	1	3
+62	"maosen, cao"	1	6
+63	"martin, terrencia deniqua"	1	3
+64	"meißner, robert horst"	1	4
+65	"meng, xiao"	1	6
+66	"meng, yixing"	1	5
+67	"miao, zhifei"	1	4
+68	"minh, hoang-le"	1	6
+69	"moharana, sumedha"	1	1
+70	"moradi, morteza"	1	5
+71	"nazarko, piotr"	1	1
+72	"okoli, okenwa izeji"	1	3
+73	"ostachowicz, wiesław"	1	3
+74	"ouyang, li"	1	5
+75	"pachón, pablo"	1	6
+76	"pai, ning"	1	6
+77	"parida, lukesh"	1	1
+78	"potluri, prasad"	1	4
+79	"prasad, sneha"	1	3
+80	"qin, yi"	1	5
+81	"qing, xinlin"	1	6
+82	"qiu, guoyang"	1	2
+83	"qiu, lei"	1	5
+84	"radzieński, maciej"	1	3
+85	"rajagopal, prabhu"	1	3
+86	"rams, joaquín"	1	4
+87	"rehman, saif ur"	1	3
+88	"rufai, olubukola"	1	4
+89	"sang-to, thanh"	1	6
+90	"scheel, moritz"	1	4
+91	"sharif khodaei, z."	1	1
+92	"sharif khodaei, zahra"	1	3
+93	"sikdar, shirsendu"	1	3
+94	"soman, rohan"	2	6
+95	"souza, gabriel s. c."	1	4
+96	"srinivasan, balaji"	1	3
+97	"sánchez, maría"	1	4
+98	"sánchez-romate, xoan f."	1	4
+99	"tabjula, jagadeeshwar"	1	3
+100	"tang, baoping"	1	5
+101	"tang, ruoli"	1	4
+102	"tita, volnei"	1	4
+103	"toor, muhammad huzaifa younus"	1	3
+104	"ureña, alejandro"	1	4
+105	"usman, muhammad"	1	3
+106	"vandepitte, dirk"	1	4
+107	"veidt, m."	1	2
+108	"wan, xiang"	1	5
+109	"wang, chenglong"	1	3
+110	"wang, minghua"	1	6
+111	"wang, yi"	1	5
+112	"wang, yifan"	1	4
+113	"wang, yishou"	1	6
+114	"wang, yue"	1	6
+115	"wei, xiaoyuan"	1	3
+116	"willmann, erik"	1	4
+117	"wronkowicz-katunin, angelika"	1	3
+118	"wu, dan"	1	4
+119	"wu, di"	1	6
+120	"wu, gang"	1	2
+121	"wu, wenjun"	1	4
+122	"wyleżoł, marek"	1	3
+123	"xie, fengqin"	1	3
+124	"xu, caibin"	1	5
+125	"xu, qiuhui"	1	5
+126	"yang, yahui"	1	3
+127	"yao, wenqing"	1	3
+128	"yazhen, zhang"	1	6
+129	"yifei, li"	1	6
+130	"yin, lingxiao"	1	4
+131	"yue, qingwen"	1	5
+132	"zarouchas, dimitrios"	1	5
+133	"zequan, he"	1	6
+134	"zhang, huayu"	1	3
+135	"zhang, lixiao"	1	2
+136	"zhang, shangyu"	1	4
+137	"zhang, shihan"	1	4
+138	"zhang, weipeng"	1	3
+139	"zhang, yang"	1	3
+140	"zhou, zhiyong"	1	5
+141	"ziaja, dominika"	1	1
+142	"zima, beata"	1	0

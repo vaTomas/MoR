@@ -1,0 +1,926 @@
+TY  - JOUR
+TI  - Robotic-based terahertz imaging for nondestructive testing of a PVC pipe cap
+AU  - Kang, Lae-Hyong
+AU  - Han, Dae-Hyun
+T2  - NDT & E International
+AB  - The detection and localization of damage in a polyvinyl chloride (PVC) pipe cap were experimentally investigated by performing pulsed terahertz time-domain spectroscopy and using a six-degree-of-freedom (DOF) robotic arm. This study focuses on the development of a 3D imaging system to monitor the thickness of and detect defects in 3D structures. The damage and thickness of the PVC pipe cap were monitored by designing the reflection geometry of the terahertz scanner based on optical components, such as beam splitter and focal lens. Additionally, the PVC pipe cap was controlled with a six-DOF robot arm for path planning. The corresponding predicted value for the thickness of the sample was computed as a function of at least one wall thickness parameter of the pipe that uses a captured terahertz wave because these waves are partially reflected when the medium is changed. The defects were simulated using a PVC pipe cap (inner diameter: 89 mm, outer diameter: 100 mm), and the specimen was mounted on a six-DOF robot arm to inspect the entire area of the PVC pipe cap. The reflected signals were analyzed to determine the thickness, defectiveness, and locations of the defects through signal processing in the time and frequency domains. Consequently, we can detect and visualize the various types of defects that are simulated in a PVC pipe cap. In addition, the validity of the structural health monitoring method for 3D structures using terahertz waves was successfully verified.
+DA  - 2021/10/01/
+PY  - 2021
+DO  - 10.1016/j.ndteint.2021.102500
+DP  - ScienceDirect
+VL  - 123
+SP  - 102500
+J2  - NDT & E International
+SN  - 0963-8695
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869521000992
+Y2  - 2024/02/22/05:12:58
+L2  - https://www.sciencedirect.com/science/article/pii/S0963869521000992
+KW  - Imaging
+KW  - Nondestructive testing
+KW  - PVC Pipe
+KW  - Robot
+KW  - Terahertz waves
+KW  - Three-dimension
+ER  - 
+
+TY  - JOUR
+TI  - Broadband electrical impedance matching of sandwiched piezoelectric ultrasonic transducers for structural health monitoring of the rail in-service
+AU  - Yang, Yahui
+AU  - Wei, Xiaoyuan
+AU  - Yao, Wenqing
+AU  - Lan, Jianping
+T2  - Sensors and Actuators A: Physical
+AB  - To achieve high power transmission efficiency and high signal-to-noise ratio of sandwiched piezoelectric ultrasonic transducers (SPUTs) over a wide bandwidth, broadband electrical impedance matching (EIM) is investigated in-depth. Firstly, L type, T type, III type, IV type and V type EIM networks are designed and the corresponding component parameters are determined by the Smith chart with a quality factor Q constraint. Secondly, the above EIM networks are compared by reflection coefficient S11, transducer power gain (TPG) and active power. It is shown that they can effectively improve the TPG, and active power by two times and greatly reduce S11. Then the emitted voltage and received voltage under different excitation frequencies and EIM networks are analyzed. It is shown that the III type network presents optimal performance, which can make the aforementioned voltage values increase by two times over entire frequency range of interest. Finally, the effect of III type and IV type networks on electromechanical characteristics is studied by using the PSpice model of SPUTs. Compared to non-matching, the electro-acoustical gain ratio is improved almost two times, while the electro-acoustical power ratio is greatly reduced.
+DA  - 2023/12/01/
+PY  - 2023
+DO  - 10.1016/j.sna.2023.114819
+DP  - ScienceDirect
+VL  - 364
+SP  - 114819
+J2  - Sensors and Actuators A: Physical
+SN  - 0924-4247
+UR  - https://www.sciencedirect.com/science/article/pii/S0924424723006684
+Y2  - 2024/02/22/05:13:02
+L2  - https://www.sciencedirect.com/science/article/pii/S0924424723006684
+KW  - Broadband electrical matching
+KW  - Electromechanical characteristics
+KW  - Rail in-service
+KW  - Sandwiched piezoelectric ultrasonic transducer
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Guided waves in long range nondestructive testing and structural health monitoring: Principles, history of applications and prospects
+AU  - Cawley, Peter
+T2  - NDT & E International
+AB  - The early work on long range guided wave nondestructive testing (NDT) was largely done in industry, and multiple applications were developed before a surge in academic interest starting in the early 1990s. This paper reviews the history of the field, covering the topics that must be addressed in the design of a test procedure, as well as applications in both NDT and Structural Health Monitoring (SHM). The use of guided waves in long range NDT is relatively mature, and largely limited to simple structures in applications that are difficult or impossible to address by conventional point inspection methods. Point methods are impractical in most large area SHM applications where it is necessary to detect isolated defects since it is not possible to cover the whole area of interest with transducers. Guided waves therefore have great potential in SHM as they enable a large area of structure to be monitored from a limited number of transduction locations, so reducing the added weight, cost and complexity of the attachment to the structure. It is also possible to improve the sensitivity of the test relative to that obtained in one-off inspection by monitoring the change in signals with time using baseline subtraction. Current SHM deployments are largely in the same types of structure as those where guided wave NDT is used, but there is substantial potential for increasing the range of applications. The paper concludes with a review of the research and development needs for this potential to be realised.
+DA  - 2024/03/01/
+PY  - 2024
+DO  - 10.1016/j.ndteint.2023.103026
+DP  - ScienceDirect
+VL  - 142
+SP  - 103026
+J2  - NDT & E International
+SN  - 0963-8695
+ST  - Guided waves in long range nondestructive testing and structural health monitoring
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869523002414
+Y2  - 2024/02/22/05:13:06
+L2  - https://www.sciencedirect.com/science/article/pii/S0963869523002414
+ER  - 
+
+TY  - JOUR
+TI  - Intelligent health indicator construction for prognostics of composite structures utilizing a semi-supervised deep neural network and SHM data
+AU  - Moradi, Morteza
+AU  - Broer, Agnes
+AU  - Chiachío, Juan
+AU  - Benedictus, Rinze
+AU  - Loutas, Theodoros H.
+AU  - Zarouchas, Dimitrios
+T2  - Engineering Applications of Artificial Intelligence
+AB  - A health indicator (HI) is a valuable index demonstrating the health level of an engineering system or structure, which is a direct intermediate connection between raw signals collected by structural health monitoring (SHM) methods and prognostic models for remaining useful life estimation. An appropriate HI should conform to prognostic criteria, i.e., monotonicity, trendability, and prognosability, that are commonly utilized to measure the HI’s quality. However, constructing such a HI is challenging, particularly for composite structures due to their vulnerability to complex damage scenarios. Data-driven models and deep learning are powerful mathematical tools that can be employed to achieve this purpose. Yet the availability of a large dataset with labels plays a crucial role in these fields, and the data collected by SHM methods can only be labeled after the structure fails. In this respect, semi-supervised learning can incorporate unlabeled data monitored from structures that have not yet failed. In the present work, a semi-supervised deep neural network is proposed to construct HI by SHM data fusion. For the first time, the prognostic criteria are used as targets of the network rather than employing them only as a measurement tool of HI’s quality. In this regard, the acoustic emission method was used to monitor composite panels during fatigue loading, and extracted features were used to construct an intelligent HI. Finally, the proposed roadmap is evaluated by the holdout method, which shows a 77.3% improvement in the HI’s quality, and the leave-one-out cross-validation method, which indicates the generalized model has at least an 81.77% score on the prognostic criteria. This study demonstrates that even when the true HI labels are unknown but the qualified HI pattern (according to the prognostic criteria) can be recognized, a model can still be built that provides HIs aligning with the desired degradation behavior.
+DA  - 2023/01/01/
+PY  - 2023
+DO  - 10.1016/j.engappai.2022.105502
+DP  - ScienceDirect
+VL  - 117
+SP  - 105502
+J2  - Engineering Applications of Artificial Intelligence
+SN  - 0952-1976
+UR  - https://www.sciencedirect.com/science/article/pii/S0952197622004924
+Y2  - 2024/02/22/05:13:09
+L1  - https://digibug.ugr.es/bitstream/10481/78951/1/1-s2.0-S0952197622004924-main.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0952197622004924
+KW  - Composite structures
+KW  - Intelligent health indicator
+KW  - Prognostic and health management
+KW  - Semi-supervised deep neural network
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - SHM system for anomaly detection of bolted joints in engineering structures
+AU  - Ziaja, Dominika
+AU  - Nazarko, Piotr
+T2  - Structures
+AB  - In this article, the elastic wave propagation phenomenon is applied as the basis for a system designed to detect anomalies in the pre-tensioned connections of engineering structures. A series of laboratory tests were carried out on a steel frame. This approach, where the connection is a fragment of the complex structure, and not an isolated part, enabled us to analyse behaviours similar to those in real engineering structures. The problem of the similarity of signals corresponding to different types of anomalies was considered. Thanks to the application of principal component analysis and a procedure employing a combination of artificial neural networks, the extraction of the most significant features of the registered signals was possible. The proposed procedure proved to be very sensitive and accurate for the proper detection of anomalies, as well as for the determination of their location and type, even if the loosening of bolts was very slight (i.e., invisible to the naked eye). The most important element of the presented approach is the fact that the combination of the assessment of the condition of local parts along with the application of artificial intelligence techniques can result in a Structural Health Monitoring (SHM) system that allows for the global assessment of structural integrity.
+DA  - 2021/10/01/
+PY  - 2021
+DO  - 10.1016/j.istruc.2021.06.086
+DP  - ScienceDirect
+VL  - 33
+SP  - 3877
+EP  - 3884
+J2  - Structures
+SN  - 2352-0124
+UR  - https://www.sciencedirect.com/science/article/pii/S2352012421005919
+Y2  - 2024/02/22/05:13:11
+L2  - https://www.sciencedirect.com/science/article/pii/S2352012421005919
+KW  - Elastic waves
+KW  - Neural networks
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Modeling of a realistic barely visible impact damage in composite structures based on NDT techniques and numerical simulations
+AU  - Katunin, Andrzej
+AU  - Wronkowicz-Katunin, Angelika
+AU  - Danek, Wojciech
+AU  - Wyleżoł, Marek
+T2  - Composite Structures
+AB  - In this paper, the authors presented a concept of a construction of a parametric model of barely visible impact damage (BVID) in carbon fiber-reinforced composite structures based on a reconstruction of X-ray computed tomography scans, ultrasonic B- and C-Scans as well as numerical simulations of such a type of impact loading. Considering the results of the experimental tests made it possible to model the resulting BVID with a realistic geometry and the location of delaminations, while the results of the numerical simulations allowed confirming and adjusting the damage extent. The original procedure of the BVID reconstruction from non-destructive testing data was developed and presented in the paper for the purpose of preparing the parametric computer-aided design (CAD) models. Using both numerical and experimental results the generic shapes of BVID for the set of various impact energies and various impactors were achieved. The determined dependencies of changing the damage extent with respect to various energies and impactors made it possible to parametrize BVID. The resulting generic models of BVID were validated on the X-ray computed tomography scans.
+DA  - 2021/07/01/
+PY  - 2021
+DO  - 10.1016/j.compstruct.2021.113889
+DP  - ScienceDirect
+VL  - 267
+SP  - 113889
+J2  - Composite Structures
+SN  - 0263-8223
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822321003494
+Y2  - 2024/02/22/05:13:13
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822321003494
+KW  - Barely visible impact damage
+KW  - Damage shape reconstruction
+KW  - Modeling of impact damage
+KW  - Ultrasonic testing
+KW  - X-ray computed tomography
+ER  - 
+
+TY  - JOUR
+TI  - Demodulation technique to identify nonlinear characteristics of vibro-acoustic NDT measurements
+AU  - Carcione, A.
+AU  - Blanloeuil, P.
+AU  - Veidt, M.
+T2  - Journal of Sound and Vibration
+AB  - A novel approach for nonlinear ultrasonics is presented which uses the demodulated response of a nonlinear vibro-acoustic signal. The demodulation process is similar to the quadrature demodulation process used in telecommunications. It is shown that the demodulation method provides an alternative approach for the analysis of nonlinear behavior compared to the analysis of frequency spectra or other techniques. The proposed method suggests that a representative reconstruction of the time-domain nonlinearity behavior of the system can be obtained. The paper provides a theoretical background to the technique as well as experimental validation. The proposed method is demonstrated for the analysis of four different types of contact acoustic nonlinear interfaces. It is shown that the demodulated waveforms are consistent with the expected mechanical behavior of the different interfaces. The results suggest that this method can provide more insight into the nonlinear behavior of a system compared to conventional spectral amplitude analysis techniques.
+DA  - 2020/02/03/
+PY  - 2020
+DO  - 10.1016/j.jsv.2019.115014
+DP  - ScienceDirect
+VL  - 466
+SP  - 115014
+J2  - Journal of Sound and Vibration
+SN  - 0022-460X
+UR  - https://www.sciencedirect.com/science/article/pii/S0022460X19305772
+Y2  - 2024/02/22/05:13:15
+L2  - https://www.sciencedirect.com/science/article/pii/S0022460X19305772
+KW  - Demodulation
+KW  - Intermodulation
+KW  - NDT
+KW  - Nonlinear ultrasonic
+KW  - Vibro-acoustics
+ER  - 
+
+TY  - JOUR
+TI  - Multi step structural health monitoring approaches in debonding assessment in a sandwich honeycomb composite structure using ultrasonic guided waves
+AU  - Balasubramaniam, Kaleeswaran
+AU  - Sikdar, Shirsendu
+AU  - Soman, Rohan
+AU  - Malinowski, Paweł
+T2  - Measurement
+AB  - This paper aims to investigate the use of ultrasonic guided wave (GW) propagation mechanism and the assessment of debonding in a sandwich composite structure (SCS) using a multi-step approach. Towards this, a series of GW propagation-based laboratory experiments and numerical simulations have been carried out on the SCS sample. The debonding regions of variable size and locations were assessed using a pre-defined network of piezoelectric lead zirconate transducers (PZT). Besides, several artificial masses were also placed in the SCS to validate the multi-step structural health monitoring (SHM) strategy. The SHM approach uses a proposed quick damage identification matrix maps and an improved elliptical wave processing (EWP) strategy of the registered GW signals to detect the locations of debonding and other damages in the SCS. The benefit of the proposed damage identification map is to locate the damaged area (sectors) quickly. This identification step is followed by applying the damage localization step using the improved EWP only on the previously identified damage sector region. The proposed EWP has shown the potential to effectively locate the hidden multiple debonding regions and damages in the SCS with a reduced number of calculations using a step-wise approach that uses only a selected number of grid points. The paper shows the effectiveness of the proposed approach based on data gathered from numerical simulations and experimental studies. Thus, using the above-mentioned SHM strategy debondings and damages present within and outside the sensor network are localized. The results were cross verified with nondestructive testing (NDT) methods such as infrared thermography and laser Doppler vibrometry.
+DA  - 2022/05/15/
+PY  - 2022
+DO  - 10.1016/j.measurement.2022.111057
+DP  - ScienceDirect
+VL  - 194
+SP  - 111057
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224122003232
+Y2  - 2024/02/22/05:13:19
+L1  - https://orca.cardiff.ac.uk/id/eprint/149075/1/1-s2.0-S0263224122003232-main.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224122003232
+KW  - Debonding
+KW  - Guided wave
+KW  - Sandwich composite structure
+KW  - Sensor network
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Measurement platform for structural health monitoring application of large scale structures
+AU  - Lambinet, F.
+AU  - Sharif Khodaei, Z.
+T2  - Measurement
+AB  - This paper reports on the development of a software platform for acquiring ultrasonic guided waves for the application of structural health monitoring (SHM) of composite fuselage panels. The focus of the developments has been its application at an industrial scale. As part of the CleanSky2 project developments, the application of SHM has been designed, developed and tested following a building block (BB) approach, from a large number of tests at coupon level to element and sub-component levels each with increasing complexity. Therefore, an SHM measurement platform has been developed and tested at different stages of the BB tests under combined operational and environmental conditions, with different sensor technology and sensor network. The platform is demonstrated to be reliable, user friendly and scalable to large sub-components, with optimized data acquisition and handling protocols.
+DA  - 2022/02/28/
+PY  - 2022
+DO  - 10.1016/j.measurement.2021.110675
+DP  - ScienceDirect
+VL  - 190
+SP  - 110675
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224121015372
+Y2  - 2024/02/22/05:13:21
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224121015372
+KW  - Composite stiffened panel
+KW  - Data acquisition and processing
+KW  - Software/hardware platform
+ER  - 
+
+TY  - JOUR
+TI  - Advancing structural health monitoring: A vibration-based IoT approach for remote real-time systems
+AU  - Rehman, Saif Ur
+AU  - Usman, Muhammad
+AU  - Toor, Muhammad Huzaifa Younus
+AU  - Hussaini, Qalandar Ali
+T2  - Sensors and Actuators A: Physical
+AB  - In the modern world, civil engineering structures are of paramount importance. Early damage detection through continuous health monitoring, instead of conventional periodic inspection, is the promising way forward for healthy structures with the least maintenance requirement. The damage is identified at the initial stage, so the cost associated with its repair can be reduced. Considering the immense scale of civil infrastructure, currently, available structural health monitoring systems are not feasible for mass application as they are prohibitively expensive. Hence, it is the need of the hour to develop a remote real-time Structural Health Monitoring System (SHMS). In the current study, a system is proposed that utilizes a vibration-based structural health monitoring approach and extracts dynamic parameters from acceleration data. The system consists of a node tasked with data collection and transmission and a server assigned with data post-processing and results display. The node comprises the following main hardware components: ESP32 as a microcontroller unit and ADXL345 as an accelerometer. The system was developed with the capability of multiple node integration, onboard data storage to eliminate sampling rate inconsistencies, dual trigger modes to achieve a high signal-to-noise ratio (SNR), power usage optimization to prolong stand-by time, and wireless data transmission along with automated post-processing. To minimize the cost of the system, Internet of Things (IoT) technology was adopted to develop the system.
+DA  - 2024/01/01/
+PY  - 2024
+DO  - 10.1016/j.sna.2023.114863
+DP  - ScienceDirect
+VL  - 365
+SP  - 114863
+J2  - Sensors and Actuators A: Physical
+SN  - 0924-4247
+ST  - Advancing structural health monitoring
+UR  - https://www.sciencedirect.com/science/article/pii/S0924424723007124
+Y2  - 2024/02/22/05:13:24
+L2  - https://www.sciencedirect.com/science/article/pii/S0924424723007124
+KW  - Internet of Things
+KW  - MEMS-based cost-effective accelerometers
+KW  - Remote real-time monitoring
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Impact sensing and localization in composites structures with embedded mechanoluminescence-perovskite sensors
+AU  - Carani, Lucas Braga
+AU  - Martin, Terrencia Deniqua
+AU  - Eze, Vincent Obiozo
+AU  - Okoli, Okenwa Izeji
+T2  - Sensors and Actuators A: Physical
+AB  - Mechanoluminescence (ML)-perovskite sensors have shown potential for real-time impact sensing in composites structure. The sensors can be embedded in the structure for in-situ and real-time structural health monitoring (SHM) applications. Our previous work demonstrated the potential of a flexible ML-perovskite sensor for SHM systems and the possibility of sensor embedment in a fiber-reinforced composite structure. However, the viability of the sensor to predict impact localization remains unexplored. This paper investigates the potential of the sensors for impact localization in composite laminates. Herein, embedded ML-perovskite sensors are placed throughout a composite plate to monitor the host structure. By monitoring and correlating the changes in the electrical current of the sensors, it is possible to predict the impact location in the structure. The experimental results show that the ML-perovskite sensor can accurately detect and locate impact events when embedded in a composite structure. This work reveals the potential of ML-perovskite sensors for damage detection and localization prediction in composite materials.
+DA  - 2022/10/16/
+PY  - 2022
+DO  - 10.1016/j.sna.2022.113843
+DP  - ScienceDirect
+VL  - 346
+SP  - 113843
+J2  - Sensors and Actuators A: Physical
+SN  - 0924-4247
+UR  - https://www.sciencedirect.com/science/article/pii/S0924424722004782
+Y2  - 2024/02/22/05:13:27
+L2  - https://www.sciencedirect.com/science/article/pii/S0924424722004782
+KW  - Composites
+KW  - Impact localization
+KW  - Mechanoluminescence
+KW  - Perovskite
+KW  - Sensor
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Structural health monitoring of a CFRP structural bonded repair by using a carbon nanotube modified adhesive film
+AU  - Sánchez-Romate, Xoan F.
+AU  - García, Carlos
+AU  - Rams, Joaquín
+AU  - Sánchez, María
+AU  - Ureña, Alejandro
+T2  - Composite Structures
+AB  - Crack-sensing capabilities of a carbon nanotube (CNT) doped adhesive film have been analysed from coupon level to a composite repaired panel. Mechanical performance is not negatively affected by the addition of CNTs, due to their good distribution inside the adhesive. Moreover, the electrical resistance increases with displacement in both Single Lap Shear (SLS) and Mode-I joints, due to the combined effect of adhesive deformation and crack propagation. More specifically, Mode-I joints usually show a stick–slip behaviour with sharp increases and arrest phases in the electrical resistance, associated to changes in the failure modes. Furthermore, a structural health monitoring (SHM) test of a composite repair was carried out by different techniques such as acoustic emission, strain gauges and CNT adhesive monitoring. From electrical monitoring of the CNT adhesive, it is possible to identify some load thresholds from which the electrical resistance starts to increase. They coincide with sudden changes of the strain field monitored by the strain gauges, as well as, with sudden peaks of the sound level, being an indicative of crack nucleation, adhesive deformation and, finally, crack propagation. Therefore it highlights the great potential and robustness for on-line SHM purpose of the proposed CNT-doped adhesive films.
+DA  - 2021/08/15/
+PY  - 2021
+DO  - 10.1016/j.compstruct.2021.114091
+DP  - ScienceDirect
+VL  - 270
+SP  - 114091
+J2  - Composite Structures
+SN  - 0263-8223
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822321005535
+Y2  - 2024/02/22/05:13:28
+L1  - https://eciencia.urjc.es/bitstream/10115/18649/1/1-s2.0-S0263822321005535-main.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822321005535
+KW  - Carbon nanotube
+KW  - CFRP repair
+KW  - Smart structure
+KW  - Strain gauge
+KW  - Structural Health Monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Spatial domain localization method for multi-damage in plate-like structure based on coefficient matrix of reflected guided waves
+AU  - Zhang, Yang
+AU  - Radzieński, Maciej
+AU  - Soman, Rohan
+AU  - Ostachowicz, Wiesław
+T2  - Journal of Sound and Vibration
+AB  - Structural health monitoring (SHM) is a multidisciplinary damage detection technique that incorporates various mechanisms, of which guided waves (GWs) -based damage detection is one of the critical fields of research. To realize the complete process of SHM, research on GWs has concentrated on diagnosis and localization. GWs-based damage detection technology is widely used in plate structure, combining different sensor placement algorithms and equipment such as scanning laser doppler vibrometry (SLDV) to achieve accurate damage location. Simultaneously, developing the finite element method (FEM) allows for precise simulation in discontinuous media and complex sharp structures. Therefore, this paper combines the theoretical calculation approach of elastic wave propagation with the orthogonal matching pursuit (OMP) algorithm, using the excitation signal and signal reflected by damage as the input matrix and target matrix, respectively. Thus, the reflection-waves coefficient matrix (RCM) containing damage information could be obtained after calculation by the OMP algorithm. Besides, a prediction approach of reference reflected signal based on four-layers recurrent neural networks (RNNs) is proposed with experiments data to reduce the difficulty of expanding a dictionary matrix in a plate with multiple defects, which allows for predicting the damage reflection signal under different distances with 88.14% accuracy. And finally, considering the aluminum plate with hole damage as an example, the experiment results show that the proposed approaches are effective for the localization of single damage and muti-damage. Meanwhile, the prospects and limitations of the algorithm for precise localization are also addressed in the last.
+DA  - 2023/05/26/
+PY  - 2023
+DO  - 10.1016/j.jsv.2023.117636
+DP  - ScienceDirect
+VL  - 552
+SP  - 117636
+J2  - Journal of Sound and Vibration
+SN  - 0022-460X
+UR  - https://www.sciencedirect.com/science/article/pii/S0022460X23000858
+Y2  - 2024/02/22/05:13:31
+L2  - https://www.sciencedirect.com/science/article/pii/S0022460X23000858
+KW  - Coefficient matrix
+KW  - Damage localization
+KW  - Guided waves
+KW  - OMP
+KW  - SHM
+ER  - 
+
+TY  - JOUR
+TI  - Comparative assessment of a multitudinal piezo arrangement for non-destructive evaluation of construction steel: An experimental study
+AU  - Parida, Lukesh
+AU  - Moharana, Sumedha
+T2  - Measurement
+AB  - Recently, sensor-based health diagnostic methods have attracted remarkable attention and can be replaced with conventional nondestructive techniques due to their robustness, reliability, and ease of implementation. Multisensing, reusable, and non-bonded configurations of PZT patches for impedance-based health monitoring are gaining popularity because of their simplicity and robustness. However, the steel bar's complex or uneven surface restricts the PZT patch's direct bonding to the host structure. This article evaluates the effectiveness of different multisensing configuration of PZT patch to monitor the loading effect and structural damage in constructional steel rebar, i.e., surface bonded, clamped and metal wire (MW) attached. Statistical and piezo frequency-based damage indices were used to assess the PZT's effective configuration. The experimental findings of this study have shown the efficacy of multi modal piezo configuration for monitoring damage and loading effects, particularly. Furthermore, the study has expanded to find piezo-equivalent structural parameters for multitudinal piezo position to identify its suitability and effectiveness for better structural health assessment and monitoring. The comparison of indices was highlighted to find a more productive PZT configuration for sensing structural change and damage highlighting the effectiveness of the non-bonded PZT patch configuration. The overall results demonstrate good agreement of employing multisensing array for monitoring damage and progressive loading, specifically the non-bonded configuration of the PZT patch.
+DA  - 2023/11/30/
+PY  - 2023
+DO  - 10.1016/j.measurement.2023.113592
+DP  - ScienceDirect
+VL  - 222
+SP  - 113592
+J2  - Measurement
+SN  - 0263-2241
+ST  - Comparative assessment of a multitudinal piezo arrangement for non-destructive evaluation of construction steel
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224123011569
+Y2  - 2024/02/22/05:13:33
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224123011569
+KW  - Damage
+KW  - Electro Mechanical Impedance (EMI)
+KW  - Loading effect
+KW  - Multi modal attachment
+KW  - Non bonded configuration
+KW  - Non-destructive evaluation
+KW  - Phase angle
+KW  - PZT patch
+ER  - 
+
+TY  - JOUR
+TI  - Cure monitoring and structural health monitoring of composites using micro-braided distributed optical fibre
+AU  - Rufai, Olubukola
+AU  - Chandarana, Neha
+AU  - Gautam, Mayank
+AU  - Potluri, Prasad
+AU  - Gresil, Matthieu
+T2  - Composite Structures
+AB  - In this paper, cure monitoring of a composite laminate is conducted, followed by subsequent structural health monitoring (SHM). A distributed optical fibre (DOF) sensor was embedded between glass fibre fabric plies during manufacture; part of the DOF length was micro-braided using glass fibres, while the remaining length was left 'bare' (as-received condition).In situand real-time strain measurement during the infusion and curing processes of the laminate was completed. Cure monitoring of composite materials using different fibre orientations, sensor locations, raw materials, and manufacturing methods has been widely studied. However, no consensus was reached due to differences in raw materials, temperature profile, manufacturing method, fibre orientation, and sensor location. The manufactured composite plate was then subjected to repeated loading during a quasi-static four-point bending test, and the strain development along the length of the DOF was recorded. Comparable results were obtained from the micro-braided and bare sections of the DOF, showing the suitability of micro-braided optical fibres for real-time strain monitoring in composite structures. The micro-braiding DOF facilitates handling for automated manufacturing methods and can be used to follow the full life cycle of a composite from fabrication till end-of-life.
+DA  - 2020/12/15/
+PY  - 2020
+DO  - 10.1016/j.compstruct.2020.112861
+DP  - ScienceDirect
+VL  - 254
+SP  - 112861
+J2  - Composite Structures
+SN  - 0263-8223
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822320327872
+Y2  - 2024/02/22/05:13:35
+L1  - https://pure.manchester.ac.uk/ws/files/175174124/COST_2020_2223_R1.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822320327872
+KW  - Composite materials
+KW  - Cure monitoring
+KW  - Distributed optical fibre (DOF)
+KW  - Micro-braided optical fibres
+KW  - Residual strain
+KW  - Structural health monitoring (SHM)
+ER  - 
+
+TY  - JOUR
+TI  - Health monitoring of CFRP laminates under cyclic loading via vibro-acoustic modulation based measurements
+AU  - Willmann, Erik
+AU  - Boll, Benjamin
+AU  - Scheel, Moritz
+AU  - Meißner, Robert Horst
+AU  - Fiedler, Bodo
+T2  - Composite Structures
+AB  - Estimating the damage state of composites is essential since carbon fibre reinforced polymers (CFRP) have a complex damage and propagation behaviour. Accordingly, a comprehensive study of the effects of matrix cracks – e.g. their size and crack density – and the influence of different damage types and their interaction on the vibro-acoustic modulation (VAM) behaviour of CFRP specimens under fatigue loading was carried out. These effects were evaluated in two sets of commonly employed laminate layups. Firstly, in a cross-ply (CP) layup, the number of 90°layers was varied, with a constant areal weight (268g/m2). Secondly, quasi-isotropic (QI) specimens were tested, where the areal weight was reduced from thick-ply to thin-ply (30–268 g/m2), changing the failure mode from a delamination-dominated to a brittle failure. After damage introduction under tension–tension loading (R=0.1), high-frequency Lamb waves are introduced via piezoceramic actuators and modulated by a low-frequency vibration using a servo-hydraulic testing machine. VAM correlates with the different damage behaviour and damage conditions in CFRP. For this purpose, the evolution of the sideband amplitudes, the modulation index, the signal in time domain and X-ray scans are used. Regardless of the layup, the degree of stiffness-reducing inter-fibre fractures and large-scale delaminations can be detected.
+DA  - 2023/03/15/
+PY  - 2023
+DO  - 10.1016/j.compstruct.2023.116696
+DP  - ScienceDirect
+VL  - 308
+SP  - 116696
+J2  - Composite Structures
+SN  - 0263-8223
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822323000405
+Y2  - 2024/02/22/05:13:37
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822323000405
+KW  - Carbon fibre
+KW  - Composite laminates
+KW  - Damage progression
+KW  - Health monitoring
+KW  - Non-destructive testing
+KW  - SHM
+KW  - Thin-ply
+KW  - Vibro-acoustic modulation
+ER  - 
+
+TY  - JOUR
+TI  - Explainable deep learning based ultrasonic guided wave pipe crack identification method
+AU  - Tang, Ruoli
+AU  - Zhang, Shangyu
+AU  - Wu, Wenjun
+AU  - Zhang, Shihan
+AU  - Han, Zichao
+T2  - Measurement
+AB  - Structural health monitoring (SHM) is important for the operational safety and stability of industrial pipeline systems. In this paper, a data-driven and finite-element-based method for pipe crack-grade identification and the explainable framework are developed. Specifically, an ultrasonic guided wave pipe crack grade identification model based on improved one-dimensional convolutional neural network is proposed, in which the multi-size convolutional kernels are used to replace the traditional single-size kernels. Thus, the developed method can effectively extract the crack information and achieve end-to-end identification. Moreover, a framework for crack-grade identification attribution analysis is developed by using the local interpretable model-agnostic explanations (LIME) theory, in which the marginal contribution values corresponding to different features can be obtained by calculating the LIME value. Finally, effectiveness of the developed methodology is comprehensively verified by simulation and physical experiments. Experimental result show that the developed methodology can obtain accurate and robust performance for pipe crack-grade identification under various noise conditions.
+DA  - 2023/01/01/
+PY  - 2023
+DO  - 10.1016/j.measurement.2022.112277
+DP  - ScienceDirect
+VL  - 206
+SP  - 112277
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224122014737
+Y2  - 2024/02/22/05:13:38
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224122014737
+KW  - Crack grade identification
+KW  - Deep learning
+KW  - Explainable
+KW  - LIME
+KW  - Ultrasonic guided wave
+ER  - 
+
+TY  - JOUR
+TI  - Ultrasonic transducer with BiScO3-PbTiO3-based ceramics of operating temperature over 400°C
+AU  - Dong, Yazhu
+AU  - Yue, Qingwen
+AU  - Cheng, Dongxu
+AU  - Zhou, Zhiyong
+AU  - Liang, Ruihong
+AU  - Dong, Xianlin
+T2  - Sensors and Actuators A: Physical
+AB  - Ultrasonic transducers are widely employed in many fields such as non-destructive testing (NDT), petrochemical refineries, aerospace field, etc., in which high temperature ultrasonic transducers are necessary because many measurements must be done at elevated temperature. In this work, 4.5 MHz high temperature ultrasonic transducers with delay line were designed and fabricated based on BiScO3-Pb(Ti0.99Zn0.01)O3 (BS-0.01PZnT) piezoelectric ceramics possessing excellent temperature stability and high Curie temperature. The experimental results revealed that −6 dB bandwidth and the center frequency of high temperature ultrasonic transducers are around 129% and 4.5 MHz, respectively, which are almost stable from room temperature to 400 °C. The peak-to-peak values (Vpp) is as large as 1.5 V at RT, indicating very high sensitivity. More importantly, the ultrasonic transducers with customized BS-0.01PZnT ceramics can work reliably at high temperature of 380 °C and 450 °C by in-situ measurement at elevated temperatures. This work verifies the great potential application values of ultrasonic transducers with BS-0.01PZnT ceramics in high temperature applications.
+DA  - 2022/06/16/
+PY  - 2022
+DO  - 10.1016/j.sna.2022.113528
+DP  - ScienceDirect
+VL  - 340
+SP  - 113528
+J2  - Sensors and Actuators A: Physical
+SN  - 0924-4247
+UR  - https://www.sciencedirect.com/science/article/pii/S0924424722001662
+Y2  - 2024/02/22/05:13:40
+L2  - https://www.sciencedirect.com/science/article/pii/S0924424722001662
+KW  - BiScO-PbTiO-based
+KW  - Temperature stability
+KW  - Ultrasonic transducer
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of optimal sensor placement algorithms for the Structural Health Monitoring of architectural heritage. Application to the Monastery of San Jerónimo de Buenavista (Seville, Spain)
+AU  - Pachón, Pablo
+AU  - Infantes, María
+AU  - Cámara, Margarita
+AU  - Compán, Víctor
+AU  - García-Macías, Enrique
+AU  - Friswell, Michael I.
+AU  - Castro-Triguero, Rafael
+T2  - Engineering Structures
+AB  - In recent years, Structural Health Monitoring (SHM) based on Operational Modal Analysis (OMA) and damage detection tools has become a popular non-destructive solution to assess the real-time integrity of any kind of structure. This technique is especially well-suited for the condition-based conservation of historical structures, where minimal invasiveness must be ensured owing to their high cultural and architectural value. Optimal Sensor Placement (OSP) techniques represent a valuable tool for efficiently designing the sensor layout in a SHM system in order to achieve an effective modal identification with a reduced number of sensors and, consequently, an improved cost efficiency. In this light, this paper proposes a design methodology of sensor networks based on OSP techniques suitable for historical structures. To do so, a preliminary extensive OMA campaign is conducted in order to construct a reliable finite element (FE) model by fitting the identified modal properties. Afterwards, an optimal sensor arrangement with a limited number of sensors is obtained by applying different model-based OSP techniques. In order to improve the robustness of the solution, material uncertainties are included in the model and the optimal sensor placement is conducted within a statistical framework. This methodology is presented and evaluated with a case study of a Spanish secular building: the Monastery of San Jerónimo de Buenavista in Seville (Spain). In particular, this paper presents the results of the preliminary ambient vibration test and the modal identification of the monastery, the updating process of the FE model, as well as a critical review of the different OSP techniques within a framework of material parameter uncertainty. The presented analysis demonstrate that OSP techniques based on the rank optimization of the kinetic energy matrix of the structure yield robust sensor layout.
+DA  - 2020/01/01/
+PY  - 2020
+DO  - 10.1016/j.engstruct.2019.109843
+DP  - ScienceDirect
+VL  - 202
+SP  - 109843
+J2  - Engineering Structures
+SN  - 0141-0296
+UR  - https://www.sciencedirect.com/science/article/pii/S014102961931003X
+Y2  - 2024/02/22/05:13:42
+L1  - https://cronfa.swan.ac.uk/Record/cronfa52769/Download/52769__15929__b5d8e9262f434fad8e5d792ddc84a1e0.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S014102961931003X
+KW  - Ambient vibration test
+KW  - Historical building
+KW  - Non-destructive test
+KW  - Operational modal analysis
+KW  - Uncertainty analysis
+ER  - 
+
+TY  - JOUR
+TI  - Probability based damage detection on a composite fuselage panel based on large data set of guided wave signals
+AU  - de Sá Rodrigues, Francisco
+AU  - Giannakeas, Ilias N.
+AU  - Sharif Khodaei, Zahra
+AU  - Aliabadi, Ferri M. H.
+T2  - NDT & E International
+AB  - This paper reports on the application and challenges of a guided wave-based structural health monitoring (GWSHM) methodology on an industrial 5 meter-long curved composite fuselage panel, for detecting barely visible impact damage (BVID), based on integrated sensors data. An extensive network consisting of 72 piezoelectric transducers installed on the panel via diagnostic film, a layer including sensors and inkjet printed flexible circuits, that provides uniform bonding quality and repairability. Threshold setting for damage detection is proposed based on statistical distribution of pristine signals, obtained throughout the span of one month. The threshold is determined through an Outlier Analysis and validated through an iterative cross-validation approach. The model validation yields a Gamma distribution with 1.5% false positive rate. A total of 20 impacts at different energies are conducted on the panel for BVID generation and these are respectively categorized based on their location. Methodologies were developed in order to detect, characterize, and localize the BVID generated from the impacts at various locations of the panel. The reliability of the SHM system is quantified by the Probability of Detection for each damage category by computing the damage area with 90% probability and 95% confidence level (a90|95 values). For damages in the skin and at the foot of the stringer a90|95 values of 233 mm2 and 365 mm2 are, respectively, obtained. Finally, the summary of the experimental work is presented through the detection of all imparted damages.
+DA  - 2023/10/01/
+PY  - 2023
+DO  - 10.1016/j.ndteint.2023.102924
+DP  - ScienceDirect
+VL  - 139
+SP  - 102924
+J2  - NDT & E International
+SN  - 0963-8695
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869523001391
+Y2  - 2024/02/22/05:13:44
+L2  - https://www.sciencedirect.com/science/article/pii/S0963869523001391
+KW  - BVID detection
+KW  - Damage localization
+KW  - Guided waves
+KW  - Outlier analysis
+KW  - Probability of detection (POD)
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Internal crack detection based on thermal excitation enabled digital image correlation method
+AU  - Wu, Dan
+AU  - Yin, Lingxiao
+AU  - Gao, Yuan
+AU  - Miao, Zhifei
+AU  - Wang, Yifan
+T2  - Measurement
+AB  - Internal crack detection is a challenging but important part of strength assessment and health monitoring. This paper proposes the use of thermal flow excitation enabled digital image correlation method to obtain full-field deformation for detection of internal crack. In this method, thermal excitation was used to heat the specimen and digital image correlation was applied to measure the strain field. The inner crack could be indicated by the strain concentration in the strain field. The experimental results show that the proposed method can effectively detect the internal cracks (fabricated by fatigue test) in 304 stainless steel material. Finally, a piece cut from the dry gas desulfurization absorber tower with cracks were detected, and the results showed that the thermally stimulated digital image correlation method can detect inner crack in the metal material near the surface and is a promising method for internal crack damage detection.
+DA  - 2024/03/15/
+PY  - 2024
+DO  - 10.1016/j.measurement.2024.114262
+DP  - ScienceDirect
+VL  - 227
+SP  - 114262
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224124001465
+Y2  - 2024/02/22/05:13:46
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224124001465
+KW  - Crack detection
+KW  - Damage analysis
+KW  - Digital image correlation
+KW  - Strain characterization
+KW  - Thermal excitation
+ER  - 
+
+TY  - JOUR
+TI  - Structural adaptive damage detection under uncertainty based on probability dissimilarity and moving average control chart
+AU  - Fang, Fang
+AU  - Ouyang, Li
+AU  - Meng, Yixing
+AU  - Xu, Qiuhui
+AU  - Chen, Jian
+AU  - Qiu, Lei
+T2  - Measurement
+AB  - For engineering applications of guided-wave-based online structural damage detection, dealing with uncertainty caused by time-varying conditions (TVCs) is an issue of fundamental importance. In this study, a structural adaptive damage detection method based on probability dissimilarity and moving average control chart (MACC) is proposed. To suppress the uncertain effects of TVCs on signals, the probability dissimilarity-based damage index (PDDI) is extracted based on the proposed adaptive probability modeling of signal feature and probability distribution dissimilarity measure. Then, the automatic damage alarm mechanism based on MACC is proposed to determine alarm threshold adaptively and restrain the uncertain influence further by the moving average of PDDI. The proposed method is verified by the damage detection experiments on typical aircraft lug specimens under varying load and temperature, and then the method is applied to the full-scale aircraft fatigue test. The results demonstrate that the proposed method realizes reliable and adaptive structural damage detection under uncertain conditions.
+DA  - 2024/02/15/
+PY  - 2024
+DO  - 10.1016/j.measurement.2023.114023
+DP  - ScienceDirect
+VL  - 225
+SP  - 114023
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224123015877
+Y2  - 2024/02/22/05:13:47
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224123015877
+KW  - Adaptive damage detection
+KW  - Control chart
+KW  - Guided wave
+KW  - Probability dissimilarity
+KW  - Structural health monitoring
+KW  - Uncertainty
+ER  - 
+
+TY  - JOUR
+TI  - Effects of filler type and aging on self-sensing capacity of cement paste using eddy current-based nondestructive detection
+AU  - Meng, Xiao
+AU  - Feng, Ju
+AU  - Pai, Ning
+AU  - Zequan, He
+AU  - Kaiyuan, Li
+AU  - Cheng, Zhou
+AU  - Yazhen, Zhang
+T2  - Measurement
+AB  - Eddy current-based nondestructive detection was first used for testing self-sensing cement paste in this study. The effects of three functional fillers and aging on self-sensing cement paste were observed. First, the plain mortar exhibited self-sensing ability at the earliest curing time, but its gage factor significantly decrease with ages. Second, among the three functional fillers that were studied - carbon fiber (CF), steel fiber (SF), and carbon black (CB) - the SF exhibited the highest gage factor. Third, the effect of ages on eddy current sensitivity is not obvious. The gage factor SF-reinforced specimens is high in different ages, while the gage of CF- and CB-reinforced specimens change little with ages. This study shows that eddy current-based nondestructive detection is feasible to detect stress and damage-induced variation of cement paste, and SF is the best filler to improve the self-sensing ability of cement paste.
+DA  - 2021/09/01/
+PY  - 2021
+DO  - 10.1016/j.measurement.2021.109708
+DP  - ScienceDirect
+VL  - 182
+SP  - 109708
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224121006710
+Y2  - 2024/02/22/05:13:49
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224121006710
+KW  - Curing age
+KW  - Eddy current
+KW  - Functional filler
+KW  - Non-destructive testing
+KW  - Self-sensing concrete
+ER  - 
+
+TY  - JOUR
+TI  - Identification of structural damage using S-transform from 1D and 2D mode shapes
+AU  - Katunin, Andrzej
+T2  - Measurement
+AB  - An improvement of vibration-based damage identification in structures attracted much attention over the last decades. Many of the developed algorithms to-date, like those based on wavelet transforms (WTs), reveal high sensitivity to damage, however suffer from numerous drawbacks, which include significant dependency of a damage detectability on selection of a basis function or the boundary effect. This paper presents a novel alternative approach for damage identification in beams and plates based on the S-transform, which combines numerous advantages of the short-time Fourier transform and an ability of multiresolution analysis of WTs. The efficiency of the proposed approach was tested and validated on 1D and 2D mode shapes of various composite structures and various types of damage obtained both from numerical simulations and experimental studies. The obtained results confirmed high sensitivity of the approach based on the S-transform to structural damage as well as revealed full reduction of the boundary effect.
+DA  - 2021/03/01/
+PY  - 2021
+DO  - 10.1016/j.measurement.2020.108656
+DP  - ScienceDirect
+VL  - 173
+SP  - 108656
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224120311702
+Y2  - 2024/02/22/05:13:52
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224120311702
+KW  - Damage identification
+KW  - Mode shapes
+KW  - Non-destructive testing
+KW  - S-transform
+KW  - Time-frequency analysis
+ER  - 
+
+TY  - JOUR
+TI  - Defect and damage detection in filament wound carbon composite cylinders: A new numerical-experimental methodology based on vibrational analyses
+AU  - de Menezes, Vanessa G. S.
+AU  - Souza, Gabriel S. C.
+AU  - Vandepitte, Dirk
+AU  - Tita, Volnei
+AU  - de Medeiros, Ricardo
+T2  - Composite Structures
+AB  - Due to its high efficiency, carbon fibre reinforced composite materials are used in many applications, including aeronautical, automotive, and civil structures. A wide range of manufacturing processes are used in composites production and each of these processes is marked by many processing parameters. However, because of the variations that are inherent to the manufacturing method, the final properties of the structure can be strongly affected, mainly the strength values. On the other hand, Vibration-Based Methods (VBM) has the advantage of simplicity and low cost, although it is very sensitive to variations in geometry and material properties. Therefore, it is strategic to deepen the research in this line to generalize the method, allowing its use in the industry as a solution to complicated real-life problems. Thus, this work presents a new numerical-experimental methodology to evaluate the effect of design parameter variations on the dynamic response of laminated composite cylinders. Numerical dynamic analyses are run via a Finite Element code, which is complemented with subroutines written in Python. A Design of Experiments (DoE) strategy is developed to reduce the number of experiments and to evaluate the effect of the design parameter variations. Three sets of nominally different composite cylinders are investigated [(90/60/-60)2/90]s, [(90/30/-30)2/90]s and [90/30/-60/60/-60/30/-30]s. System natural frequencies as taken as the primary response quantities. Frequency Response Functions (FRF) enrich the data set for more elaborate analysis. A DoE strategy is set up to deal with the range of design parameters and process parameters, a full factorial design is selected. Afterward, the results are discussed with proper attention for the potential and limitations of the proposed methodology from the perspective of usage to detect defects in real laminated composite cylinders. Finally, damage indices are calculated using the experimental FRFs magnitudes to quantify the influence of the undamaged and impact damage structure. The general conclusion is that the new methodology provides the foundations for the next generation of software systems for detecting defects from the manufacturing process and damage caused in-service of real composite structures.
+DA  - 2021/11/15/
+PY  - 2021
+DO  - 10.1016/j.compstruct.2021.114548
+DP  - ScienceDirect
+VL  - 276
+SP  - 114548
+J2  - Composite Structures
+SN  - 0263-8223
+ST  - Defect and damage detection in filament wound carbon composite cylinders
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822321010102
+Y2  - 2024/02/22/05:13:54
+L1  - https://lirias.kuleuven.be/bitstream/20.500.12942/689752/2/Manuscript_COMSTR-2021_final-rev.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822321010102
+KW  - Composite cylinders
+KW  - Damage detection
+KW  - Filament Winding
+KW  - Finite Element Analysis
+KW  - Low-frequency dynamics
+KW  - Manufacturing defects
+ER  - 
+
+TY  - JOUR
+TI  - Structural health monitoring methods of cables in cable-stayed bridge: A review
+AU  - Zhang, Lixiao
+AU  - Qiu, Guoyang
+AU  - Chen, Zhishou
+T2  - Measurement
+AB  - Cables as the crucial components, its inspection is the key problem to ensure the safety of cable-stayed bridge. Study of the monitoring methods of cable tension has practical meaning to bridge stability. Firstly, this paper summarized static and dynamic theory of cables. Then, the traditional and innovative monitoring methods of cable force are analyzed, especially the recent emerging intelligent methods. At the end of the paper, a conclusion is provided for the future development of cable-stayed bridges.
+DA  - 2021/01/15/
+PY  - 2021
+DO  - 10.1016/j.measurement.2020.108343
+DP  - ScienceDirect
+VL  - 168
+SP  - 108343
+J2  - Measurement
+SN  - 0263-2241
+ST  - Structural health monitoring methods of cables in cable-stayed bridge
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224120308800
+Y2  - 2024/02/22/05:13:56
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224120308800
+KW  - Cable tension
+KW  - Cable-stayed bridge
+KW  - Intelligent devices monitoring method
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Physics-informed deep filtering of ultrasonic guided waves for incipient defect inspection of large-scale square tube structures
+AU  - Li, Xiaomeng
+AU  - Wang, Yi
+AU  - Wan, Xiang
+AU  - Tang, Baoping
+AU  - Qin, Yi
+AU  - Xu, Caibin
+T2  - Journal of Sound and Vibration
+AB  - For large-scale structure inspection, the traditional ultrasonic inspection methods are time-consuming and inefficient. Recently, many approaches based on ultrasonic guided waves have been developed. However, during the propagation of guided waves, as the propagation distance increases, the signal amplitude attenuates gradually, as a result, the reflected wave packets from the incipient defects are always seriously contaminated or even buried in noise, and the defect signatures cannot be effectively identified in this circumstance. To detect incipient defect as early as possible to ensure structure safety, it is very essential to suppress the background noise and enhance the reflected wave packet from defect. To address this issue, a physics-informed deep filtering method is proposed for ultrasonic guided waves enhancement. In the proposed method, a deep learning model is constructed and trained based on template signals of ultrasonic guided waves simulated by digital model with different parameters, and then generalized to enhancement of weak ultrasonic guided waves from practical cases. The simulation test and experimental results on large-scale square tube structures indicate that the proposed ultrasonic guided waves enhancement method is effective for early-stage defect inspection and outperforms the traditional guided waves enhancement approaches.
+DA  - 2023/12/22/
+PY  - 2023
+DO  - 10.1016/j.jsv.2023.118066
+DP  - ScienceDirect
+VL  - 567
+SP  - 118066
+J2  - Journal of Sound and Vibration
+SN  - 0022-460X
+UR  - https://www.sciencedirect.com/science/article/pii/S0022460X23005151
+Y2  - 2024/02/22/05:13:58
+L2  - https://www.sciencedirect.com/science/article/pii/S0022460X23005151
+KW  - Incipient defect inspection
+KW  - Large-scale square tube structures
+KW  - Physics-informed deep filtering
+KW  - Ultrasonic guided waves
+ER  - 
+
+TY  - JOUR
+TI  - Defect imaging curved surface based on flexible eddy current array sensor
+AU  - Zhang, Weipeng
+AU  - Wang, Chenglong
+AU  - Xie, Fengqin
+AU  - Zhang, Huayu
+T2  - Measurement
+AB  - Due to it is difficult to visually reflect the size, distribution shape and location of the defects in surface quality detection of complex surfaces, the flexible eddy current array (FECA) probe combined with the Cartesian coordinate robot is employed to scan the defects on last stage blades of steam turbine (LSBST) in this paper. The sensor probe is designed to parallel and stagger arrangement and weld onto a flexible printed circuit board (FPCB). The FECA sensor is thin and flexible, and thus it can conform to the surface geometries of the LSBST. To increase the inductance value of the single probe coil, Iron core is added in the middle of the cylindrical coil. In the process of detecting signal, the starting point compensation and lift-off effect compensation are carried out, which improves the resolution of defect detection and realizes the imaging of the natural defects on the surface of LSBST. Finally, the effect of defect imaging on steam turbine blades is verified through conducting experiments. Results demonstrate that the size, location and shape of defects are consistent with the actual situation which verifies the feasibility of the imaging algorithm.
+DA  - 2020/02/01/
+PY  - 2020
+DO  - 10.1016/j.measurement.2019.107280
+DP  - ScienceDirect
+VL  - 151
+SP  - 107280
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224119311443
+Y2  - 2024/02/22/05:14:00
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224119311443
+KW  - Defects imaging
+KW  - Flexible eddy current array
+KW  - Last stage blades of steam turbine
+KW  - Natural defects
+ER  - 
+
+TY  - JOUR
+TI  - Damage detection in plates based on Lamb wavefront shape reconstruction
+AU  - Zima, Beata
+T2  - Measurement
+AB  - Many of the current studies in the area of damage detection using elastic wave propagation are based on deploying sensor networks with a large number of piezoelectric transducers to detect small-size cracks. A major limitation of these studies is that cracks are usually larger and have different shapes in real cases. Moreover, using a large number of sensing nodes for damage detection is both costly and computationally intensive. The paper proposes a novel elastic wave propagation method for damage detection based on the reconstruction of the shape of the reflected wavefront. The main advantage of the developed approach is that merely three sensors are necessary to localize and estimate the size of the cracks with various sizes and shapes. Several damage cases with different number of piezoelectric transducers and placement have been investigated experimentally. Extensive numerical simulations are performed to benchmark the performance of the proposed method.
+DA  - 2021/06/01/
+PY  - 2021
+DO  - 10.1016/j.measurement.2021.109206
+DP  - ScienceDirect
+VL  - 177
+SP  - 109206
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224121002232
+Y2  - 2024/02/22/05:14:01
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224121002232
+KW  - Crack
+KW  - Damage detection
+KW  - Guided waves
+KW  - Plate
+KW  - Transducers configuration
+KW  - Wavefront
+ER  - 
+
+TY  - JOUR
+TI  - Fatigue damage monitoring of composite laminates based on acoustic emission and digital image correlation techniques
+AU  - Wang, Minghua
+AU  - He, Mengyue
+AU  - Liang, Zhihong
+AU  - Wu, Di
+AU  - Wang, Yue
+AU  - Qing, Xinlin
+AU  - Wang, Yishou
+T2  - Composite Structures
+AB  - Timely and effective health evaluation of carbon fiber reinforced polymer (CFRP) structures under dynamic fatigue loading is one of the key issues of CFRP in practical engineering applications. This paper uses a combination of acoustic emission (AE) and digital image correlation (DIC) to study the fatigue behavior of CFRP open-hole laminated beams with different stacking sequences under pure tensile loading, and analyze the influence of different damage mechanisms on the ultimate fatigue failure of the specimens. Two parameters, AE hit rate and absolute AE energy, are used to characterize the stiffness degradation behavior of CFRP structures. The strain field distribution characteristics during the damage failure of specimens with different stacking sequences are discussed in association with DIC. Based on the data obtained by AE and DIC, the damage modes of two types of layered CFRP laminated beams are identified by combining principal component analysis (PCA) and the K-means++ algorithm. The clustering results are consistent with the microscopic image results of the fracture surface. The identified modes are employed to characterize the dynamic evolution of fatigue damage in CFRP, and the contribution of different damage modes to the ultimate fatigue failure of the specimens is analyzed using cumulative damage index (CDI) values.
+DA  - 2023/10/01/
+PY  - 2023
+DO  - 10.1016/j.compstruct.2023.117239
+DP  - ScienceDirect
+VL  - 321
+SP  - 117239
+J2  - Composite Structures
+SN  - 0263-8223
+UR  - https://www.sciencedirect.com/science/article/pii/S0263822323005858
+Y2  - 2024/02/22/05:14:03
+L2  - https://www.sciencedirect.com/science/article/pii/S0263822323005858
+KW  - Acoustic emission
+KW  - Composite
+KW  - Digital image correlation
+KW  - Fatigue damage
+KW  - Structural health monitoring
+ER  - 
+
+TY  - JOUR
+TI  - Crack monitoring using short-gauged Brillouin fiber optic sensor
+AU  - Han, Tianran
+AU  - Wu, Gang
+AU  - Lu, Yong
+T2  - Measurement
+AB  - Detection and quantification of cracks for various civil infrastructures on a large scale are difficult both technologically and economically through current sensing methodologies. This study presents a novel fiber-optic sensor named short-gauged Brillouin fiber optic sensor, which enables basic Brillouin-based analyzers to achieve early crack detection and accurate crack width measurement. The concept and design of the proposed sensor are firstly introduced, followed by respective instrumentation procedures. On this basis, theoretical deduction and numerical simulations of the crack-induced Brillouin gain spectrum (BGS) response using the proposed sensor are carried out, verified subsequently by controlled laboratory tests. The measured BGS responses are then leveraged for crack detection and quantification. A peak-fitting-based methodology was adopted to analyze the BGS data to achieve accurate crack width measurement. The proposed methodology may facilitate economical long-distance distributed crack sensing and quantification for various infrastructures as a generic technique.
+DA  - 2021/07/01/
+PY  - 2021
+DO  - 10.1016/j.measurement.2021.109461
+DP  - ScienceDirect
+VL  - 179
+SP  - 109461
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224121004486
+Y2  - 2024/02/22/05:14:05
+L1  - https://www.pure.ed.ac.uk/ws/files/208133322/Measurement_paper_manuscript.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224121004486
+KW  - Crack sensing
+KW  - Crack width measurement
+KW  - Distributed fiber optic sensing
+KW  - Short-gauged Brillouin fiber optic sensor
+ER  - 
+
+TY  - JOUR
+TI  - Structure damage identification in dams using sparse polynomial chaos expansion combined with hybrid K-means clustering optimizer and genetic algorithm
+AU  - YiFei, Li
+AU  - Minh, Hoang-Le
+AU  - Khatir, S.
+AU  - Sang-To, Thanh
+AU  - Cuong-Le, Thanh
+AU  - MaoSen, Cao
+AU  - Abdel Wahab, Magd
+T2  - Engineering Structures
+AB  - Structural damage identification plays a crucial role in structural health monitoring. In this study, a novelty method for structural damage identification is developed, which employs an advanced surrogate modelling technique to drive a new hybrid optimization strategy, namely a combination of K-means clustering optimizer and genetic algorithm (HKOGA). The core of this method is using the reliable sparse polynomial chaos expansion model as a cost-effective substitute for the computationally expensive structural finite element models, thus greatly improving the efficiency of the optimization strategy in finding the optimal value of the objective function. To evaluate the performance of this hybrid optimization strategy, seven optimization algorithms are selected and compared with it for 23 classical benchmark functions, and the comparative results show that the HKOGA has the best performance. Taking a small-scaled laboratory dam as an example, the efficiency and reliability of the proposed method to cope with the problems concerning finite element model updating and structural damage identification are explored. Two important findings are as follows. (i) For finite element model updating, compared to the conventional method based on iterative optimization, the proposed method improves computational efficiency by a factor of 59 while maintaining computational accuracy. (ii) For structural damage identification, leaving aside the huge leap in computational efficiency, the HKOGA has a faster convergence rate, stronger robustness, and higher accuracy than its sub-algorithm K-means clustering optimizer (KO). The results show that this method can be severed as an extremely efficient and potential tool to identify damage in large and complex structures.
+DA  - 2023/05/15/
+PY  - 2023
+DO  - 10.1016/j.engstruct.2023.115891
+DP  - ScienceDirect
+VL  - 283
+SP  - 115891
+J2  - Engineering Structures
+SN  - 0141-0296
+UR  - https://www.sciencedirect.com/science/article/pii/S014102962300305X
+Y2  - 2024/02/22/05:14:07
+L2  - https://www.sciencedirect.com/science/article/pii/S014102962300305X
+KW  - Hybrid optimization strategy
+KW  - Laboratory dam
+KW  - Model updating
+KW  - Sparse polynomial chaos expansion
+KW  - Structural damage identification
+ER  - 
+
+TY  - JOUR
+TI  - Automated detection and characterisation of defects from multiview ultrasonic imaging
+AU  - Bevan, Rhodri L. T.
+AU  - Croxford, Anthony J.
+T2  - NDT & E International
+AB  - This paper explores how different off the shelf machine learning (ML) models may be applied to the problem of immersion inspection with ultrasonic phased arrays. The paper addresses the problem of training set availability through the application of a well validated forward model of the system. This allow training sets of arbitrary size with arbitrary defect locations and types to be generated. This is generally not possible with purely experimental datasets. The availability of these large datasets allows relative assessment of the capabilities and limitations of a range of ML models. In doing this we show that shallow learning has similar performance to deep learning for defect detection and significant additional benefits. The paper then explores the problem of defect characterisation and show that deep learning models can offer excellent performance. The same models can also be readily re-purposed to different challenges, such as determining a defect's type.
+DA  - 2022/06/01/
+PY  - 2022
+DO  - 10.1016/j.ndteint.2022.102628
+DP  - ScienceDirect
+VL  - 128
+SP  - 102628
+J2  - NDT & E International
+SN  - 0963-8695
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869522000275
+Y2  - 2024/02/22/05:14:09
+L2  - https://www.sciencedirect.com/science/article/pii/S0963869522000275
+KW  - Characterisation
+KW  - Detection
+KW  - Imaging
+KW  - Machine learning
+KW  - Ultrasound
+ER  - 
+
+TY  - JOUR
+TI  - Sparse sampled visualization of ultrasonic guided waves for defect identification in plate structures
+AU  - Tabjula, Jagadeeshwar
+AU  - Kanakambaran, Srijith
+AU  - Rajagopal, Prabhu
+AU  - Srinivasan, Balaji
+T2  - NDT & E International
+AB  - Ultrasonic wave visualization is an effective tool to identify defects along with their location and topology in guided wave structural health monitoring applications. However, conventional imaging techniques require relatively longer data acquisition time and large storage space. Reconstructing waves from sparse sampled images can potentially overcome such difficulties. In this regard, sparse sampling techniques based on random sampling and uniform sampling are explored in this paper. Specifically random sparse sampling using Poisson disk with biharmonic interpolation (PDS-BI) technique is shown to achieve defect identification with an image sparsity of 95% and a sensor density of 5λ2. On the other hand, a novel technique based on uniform sparse sampling with carrier multiplication (US-CM) is demonstrated to reconstruct the image with a sparsity of greater than 98% and a sensor density less than 2λ2. The performance of the proposed techniques has been quantified using Structural Similarity (SSIM) metric and validated through experiments. The reconstructed images are found to be in good agreement with those obtained by a dense array with much larger number of receivers. We also experimentally demonstrate the visualization of ultrasonic wave propagation in a metallic plate using a surface-bonded fiber Bragg grating sensor as an alternative to the conventional sensor.
+DA  - 2023/09/01/
+PY  - 2023
+DO  - 10.1016/j.ndteint.2023.102890
+DP  - ScienceDirect
+VL  - 138
+SP  - 102890
+J2  - NDT & E International
+SN  - 0963-8695
+UR  - https://www.sciencedirect.com/science/article/pii/S0963869523001056
+Y2  - 2024/02/22/05:14:11
+L2  - https://www.sciencedirect.com/science/article/pii/S0963869523001056
+KW  - Delamination
+KW  - FBG
+KW  - Poisson disk sampling
+KW  - Sparse sampling
+KW  - Ultrasonics
+ER  - 
+
+TY  - JOUR
+TI  - A real-time feature-based clustering approach for vibration-based SHM of large structures
+AU  - Prasad, Sneha
+AU  - Kumar, David
+AU  - Kalra, Sumit
+AU  - Khandelwal, Arpit
+T2  - Measurement
+AB  - Feature matching techniques are widely explored in structural health monitoring (SHM) of large structures due to their invariance to scale and rotational changes, unlike the traditionally used template matching techniques. However, uniformity of feature distribution is a major concern while matching the images, which requires a large number of features for better correspondence, increasing the computational time. Thus, this study proposes an intermediate solution — a KAZE feature-based clustering approach. It creates a cluster of only four interest points, which decreases the processing time and enhances the accuracy of detecting pixel displacements. On the other hand, due to the high uncertainty of the corresponding points in all the subsequent images, the study introduces a concept of centroid calculation and centroid prediction for identifying the coordinates responsible for measuring the displacements of large structures. Further, the present work also demonstrates the developed methodology in a real-time SHM experiment by measuring the dynamic response of a structure in real-time.
+DA  - 2024/03/15/
+PY  - 2024
+DO  - 10.1016/j.measurement.2024.114222
+DP  - ScienceDirect
+VL  - 227
+SP  - 114222
+J2  - Measurement
+SN  - 0263-2241
+UR  - https://www.sciencedirect.com/science/article/pii/S0263224124001064
+Y2  - 2024/02/22/05:31:46
+L2  - https://www.sciencedirect.com/science/article/pii/S0263224124001064
+KW  - Computer vision
+KW  - Feature detection and matching
+KW  - KAZE algorithm
+KW  - Large structures
+KW  - Nondestructive testing
+KW  - Structural health monitoring
+KW  - Vibrations
+ER  - 
+

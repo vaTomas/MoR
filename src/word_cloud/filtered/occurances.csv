@@ -1,0 +1,138 @@
+﻿id,keyword,occurrences,total link strength
+1,structural health monitoring,15,64
+2,nondestructive testing,7,33
+3,guided waves,5,23
+4,damage detection,4,18
+5,ultrasound,5,17
+6,damage,2,11
+7,composites,2,9
+8,damage localization,2,9
+9,imaging,2,9
+10,digital image correlation,2,8
+11,electro mechanical impedance (emi),1,7
+12,loading effect,1,7
+13,multi modal attachment,1,7
+14,non bonded configuration,1,7
+15,nondestructive evaluation,1,7
+16,phase angle,1,7
+17,pzt patch,1,7
+18,carbon fibre,1,6
+19,composite laminates,1,6
+20,computer vision,1,6
+21,feature detection and matching,1,6
+22,kaze algorithm,1,6
+23,large structures,1,6
+24,quantification,1,6
+25,thin-ply,1,6
+26,vibrations,1,6
+27,vibro-acoustic modulation,1,6
+28,adaptive damage detection,1,5
+29,bvid detection,1,5
+30,composite cylinders,1,5
+31,composite materials,1,5
+32,control chart,1,5
+33,cracks,1,5
+34,cure monitoring,1,5
+35,distributed optical fibre (dof),1,5
+36,filament winding,1,5
+37,finite element analysis,1,5
+38,impact localization,1,5
+39,low-frequency dynamics,1,5
+40,manufacturing defects,1,5
+41,mechanoluminescence,1,5
+42,micro-braided optical fibres,1,5
+43,outlier analysis,1,5
+44,perovskite,1,5
+45,plate,1,5
+46,probability dissimilarity,1,5
+47,probability of detection (pod),1,5
+48,pvc pipe,1,5
+49,residual strain,1,5
+50,robot,1,5
+51,sensor,1,5
+52,terahertz waves,1,5
+53,three-dimension,1,5
+54,transducers configuration,1,5
+55,uncertainty,1,5
+56,wavefront,1,5
+57,acoustic emission,1,4
+58,ambient vibration test,1,4
+59,barely visible impact damage,1,4
+60,broadband electrical matching,1,4
+61,carbon nanotube,1,4
+62,cfrp repair,1,4
+63,characterisation,1,4
+64,coefficient matrix,1,4
+65,composite structures,1,4
+66,crack detection,1,4
+67,crack grade identification,1,4
+68,curing age,1,4
+69,damage analysis,1,4
+70,damage shape reconstruction,1,4
+71,debonding,1,4
+72,deep learning,1,4
+73,delamination,1,4
+74,demodulation,1,4
+75,eddy current,1,4
+76,electromechanical characteristics,1,4
+77,explainable,1,4
+78,fbg,1,4
+79,functional filler,1,4
+80,historical building,1,4
+81,hybrid optimization strategy,1,4
+82,intelligent health indicator,1,4
+83,intermodulation,1,4
+84,laboratory dam,1,4
+85,lime,1,4
+86,machine learning,1,4
+87,mode shapes,1,4
+88,model updating,1,4
+89,modeling of impact damage,1,4
+90,nonlinear ultrasonic,1,4
+91,omp,1,4
+92,operational modal analysis,1,4
+93,poisson disk sampling,1,4
+94,prognostic and health management,1,4
+95,rail in-service,1,4
+96,s-transform,1,4
+97,sandwich composite structure,1,4
+98,sandwiched piezoelectric ultrasonic transducer,1,4
+99,self-sensing concrete,1,4
+100,semi-supervised deep neural network,1,4
+101,sensor network,1,4
+102,smart structure,1,4
+103,sparse polynomial chaos expansion,1,4
+104,sparse sampling,1,4
+105,strain characterization,1,4
+106,strain gauge,1,4
+107,structural damage identification,1,4
+108,thermal excitation,1,4
+109,time-frequency analysis,1,4
+110,ultrasonic testing,1,4
+111,uncertainty analysis,1,4
+112,vibro-acoustics,1,4
+113,x-ray,1,4
+114,cable tension,1,3
+115,cable-stayed bridge,1,3
+116,crack sensing,1,3
+117,crack width measurement,1,3
+118,damage imaging,1,3
+119,fiber optics,1,3
+120,flexible eddy current array,1,3
+121,incipient defect inspection,1,3
+122,intelligent devices monitoring method,1,3
+123,internet of things,1,3
+124,large-scale square tube structures,1,3
+125,last stage blades of steam turbine,1,3
+126,mems-based cost-effective accelerometers,1,3
+127,natural defects,1,3
+128,physics-informed deep filtering,1,3
+129,remote real-time monitoring,1,3
+130,short-gauged brillouin fiber optic sensor,1,3
+131,bisco-pbtio-based,1,2
+132,composite stiffened panel,1,2
+133,data acquisition and processing,1,2
+134,elastic waves,1,2
+135,neural network,1,2
+136,software/hardware platform,1,2
+137,temperature stability,1,2
