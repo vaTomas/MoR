@@ -220,6 +220,20 @@ NDT device for efficient structural health monitoring as shown in \autoref{fig:f
 
 
 
+
+
+% === Results and Discussion of Scientometric Review === %
+\section{Results and Discussion of Scientometric Review}
+The 35 articles were retrieved for us to conduct a scientometric review.
+\autoref{fig:publications} illustrates a distribution across publication years,
+with a notable increase in publications from 2019 to 2023.
+This trend suggests a growing interest and emphasis on advanced monitoring techniques,
+aligning with the expanding need for structural integrity and safety assurance.
+The concentration of publications in recent years reflects ongoing technological advancements,
+particularly in sensor technology and data analytics.
+Our study is positioned within this dynamic research landscape, aiming to leverage insights from existing
+literature to inform and advance our research objectives.
+
 \begin{figure}
   \centering
 
@@ -248,61 +262,115 @@ NDT device for efficient structural health monitoring as shown in \autoref{fig:f
   \label{fig:publications}
 \end{figure}
 
+\begin{figure}
+  \centering
 
-% === Results and Discussion of Scientometric Review === %
-\section{Results and Discussion of Scientometric Review}
-\lipsum[1]
+  \begin{tikzpicture}
+    \begin{axis}[
+        ybar,
+        width=0.9\columnwidth,                                          % Adjust the width of the plot
+        bar width=8pt,                                                  % Adjust the width of the bars
+        xlabel={Year},                                                  % Label for the x-axis
+        ylabel={Number of Publications},                                % Label for the y-axis
+        xtick=data,                                                     % Use data points as x-axis labels
+        xticklabels={2020, 2021, 2022, 2023, 2024},                           % Labels for the x-axis ticks
+        ticklabel style={font=\footnotesize}, % Set the font size for the x-axis tick labels
+        ymin=0,                                                         % Set the minimum value for the y-axis
+        enlarge y limits=0.1,                                           % Add space to the top and bottom of the y-axis
+        legend style={draw=none}, % Remove the legend
+        axis x line=bottom,  % Align x-axis line with ticks
+        axis y line=left,    % Align y-axis line with ticks
+        xmin=2019.5,                                                    % Set xmin to create a margin to the left of 2015
+        xmax=2024.5,                                                    % Set xmax to create a margin to the right of 2024
+      ]
+      \addplot+ [fill=black, draw=none]  coordinates {(2020, 4) (2021, 10)  (2022, 3)  (2023, 11) (2024, 7)};
+    \end{axis}
+  \end{tikzpicture}
+  \caption{Annual Publications Over the Years About SHM and NDT for Selected Articles}
+  \label{fig:publicationsSel}
+\end{figure}
 
 \subsection{Analysis of Journals}
-As shown in \autoref{tbl:bibliometricRanking} \lipsum[1]
+As mentioned from the methodology, only articles from engineering publications were considered
+in this study since they represent the most influential and reputable research works. \autoref{tbl:bibliometricRanking}
+presents a breakdown of the research by publication, revealing varying levels of engagement across different sectors.
+In particular, the category of Measurement appears as the most prolific,
+with a large number of references and citations, suggesting its importance and relevance in the area.
+NDT \& E International  also stands out for its large amount of references,
+indicating a high research emphasis and effect in the engineering field.
+Composite Structures,Sensors and Actuators and Engineering Structures  follow closely behind,
+demonstrating their contributions to the progress of engineering knowledge and techniques.
+Interestingly,  Journal of Sound and Vibration has a lesser number of references and citations,
+its inclusion highlights the range of sources used in our analysis.
+Overall, these findings highlight the varied character of engineering research,
+with each sector contributing separate but valuable contributions to the field of NDT device development and SHM approaches.
 
-\begin{table}[htbp]
+\begin{table*}[htbp]
 
   \centering
   \caption{Bibliometric Ranking Of Journals}
   \label{tbl:bibliometricRanking}
-  \resizebox{\columnwidth}{!}{\begin{tabular}{lcc}
+  \begin{tabular}{lccc}
 
       \toprule
-      \textbf{Journal} & \textbf{No. of Documents} & \textbf{No. of Citations} \\
+      \textbf{Research Sector} & \textbf{Number of Documents} & \textbf{Total References} & \textbf{Total Citations}  \\
       \midrule
-      e-Journal of Nondestructive Testing                   & 1     & 602   \\
-      Journal of Hon                                        & 1     & 100   \\
-      Heh Periodicals                                       & 1     & 195   \\
-      Sensors in thw World                                  & 1     & 515   \\
-      \bottomrule
-  \end{tabular}}
-\end{table}
+      Measurement & 13 & 690 & 254 \\
+      Composite Structures & 6 & 323 & 80 \\
+      Engineering Structures & 2 & 135 & 49 \\
+      NDT \& E International & 5 & 464 & 16 \\
+      Structures & 1 & 34 & 16 \\
+      Engineering Applications of AI & 1 & 54 & 14 \\
+      Sensors and Actuators & 4 & 164 & 11 \\
+      Journal of Sound and Vibration & 3 & 155 & 6 \\
 
-It is evident in \autoref{tbl:bibliometricRanking} \lipsum[1]
+      \bottomrule
+  \end{tabular}
+\end{table*}
 
 
 \subsection{Active Researchers}
-As seen in \autoref{tbl:bresearchers} \lipsum[1]
+Identifying proactive researchers fosters collaboration and knowledge sharing within scholarly communities.
+In this dataset, authors like Soman, Zequan, Yifei, Yazhen, Wu, Wang, and Yishou each contribute
+significantly to the research landscape with their publications. While their individual contributions may vary,
+collectively, they enhance the depth and breadth of research in their respective fields.
+This understanding is crucial for our research on developing a portable NDT device for efficient structural health monitoring,
+as it allows us to identify key collaborators and potential sources of expertise.
+The high total link strength of 6 for each author suggests a substantial degree of collaboration
+and interconnectedness within their research networks, indicating fertile ground for collaboration
+and knowledge exchange that could potentially enrich our project.
 
 \begin{table}[htbp]
 
   \centering
-  \caption{Top Researchers}
+  \caption{Proactive Researchers}
   \label{tbl:bresearchers}
-  \begin{tabular}{lccc}
+  \begin{tabular}{lcc}
 
       \toprule
-      \textbf{Author} & \textbf{Documents} & \textbf{Citations} & \textbf{TLS} \\
+      \textbf{Author} & \textbf{Documents} & \textbf{Total Link strength (TLS)} \\
       \midrule
-      Hasan A.                   & 1     & 602   &  31         \\
-      Rodulf K. A.               & 1     & 100   &  11         \\
-      Libre F. C.                & 1     & 195   &  18         \\
-      Change M. E.               & 1     & 515   &  7          \\
+      Soman, Rohan & 2 & 6 \\
+      Zequan, He & 1 & 6 \\
+      Yifei, Li & 1 & 6 \\
+      Yazhen, Zhang & 1 & 6 \\
+      Wu, Di & 1 & 6 \\
+      Wang, Yue & 1 & 6 \\
+      Wang, Yishou & 1 & 6 \\
       \bottomrule
   \end{tabular}
 \end{table}
 
-However, it shall be noted that \autoref{tbl:bresearchers} \lipsum[1]\lipsum[1]
-
 
 \subsection{Article Sitation Analysis}
-It is imperative as shown in \autoref{tbl:articleCites} \lipsum[1]
+This section presents a citation analysis of influential articles in the field of SHM and NDT.
+\autoref{tbl:articleCites} shows extracted articles with atleast 10 citations.
+Among the top-cited works, L. Zhang et al. \cite{zhang_structural_2021} garnered the highest attention with 111 citations,
+underscoring its significant impact on the research landscape.
+Other notable contributions include the studies by W. Zhang et al. \cite{zhang_defect_2020}
+and O. Rufai et al. \cite{rufai_cure_2020}, indicating the breadth and depth of research endeavors in this domain.
+These highly cited articles offer valuable insights and references
+that can enrich the discourse surrounding the development of portable NDT devices for efficient SHM.
 
 \begin{table}[htbp]
 
@@ -314,20 +382,36 @@ It is imperative as shown in \autoref{tbl:articleCites} \lipsum[1]
       \toprule
       \textbf{Article} & \textbf{No. of Citation} \\
       \midrule
-      Author Name       \cite{}           &    331         \\
-      Rodulf K. A.      \cite{}      &    141         \\
-      Libre F. C.       \cite{}     &    118         \\
-      Change M. E.      \cite{}          &    71          \\
+      L. Zhang, et al. \cite{zhang_structural_2021} & 111 \\
+      W. Zhang, et al. \cite{zhang_defect_2020} & 40 \\
+      O. Rufai et al. \cite{rufai_cure_2020} & 36 \\
+      P. Pachón et al \cite{pachon_evaluation_2020} & 28 \\
+      F. Lambinet et al. \cite{lambinet_measurement_2022} & 21 \\
+      L. YiFei et al. \cite{yifei_structure_2023} & 21 \\
+      A. Katunin, et al. \cite{katunin_modeling_2021} & 17 \\
+      D. Ziaja et al. \cite{ziaja_shm_2021} & 16 \\
+      X. F. Sánchez-Romate et al. \cite{sanchez-romate_structural_2021} & 16 \\
+      B. Zima \cite{zima_damage_2021} & 15 \\
+      M. Moradi et al. \cite{moradi_intelligent_2023} & 14 \\
+      Y. Dong et al. \cite{dong_ultrasonic_2022} & 10 \\
+
       \bottomrule
   \end{tabular}
 \end{table}
 
-Hence, the data in \autoref{tbl:articleCites} \lipsum[1]
 
 
 
 \subsection{Keyword Analysis}
-That the closer as show in \autoref{fig:coOccuranceNetwork} \lipsum[1]
+This section delineates the co-occurrence network of keywords generated by VOSviewer,
+which illustrates the interconnections between keywords within our research domain.
+With 15 occurrences, "structural health monitoring" emerges as the most prominent keyword, followed by
+"nondestructive testing" with 7 occurrences. This analysis sheds light on the thematic landscape of our research,
+revealing key focal points and areas of emphasis as shown in \autoref{fig:coOccuranceNetwork}.
+For instance, the frequency of phrases such as
+"guided waves" and "ultrasound" highlights the importance of sophisticated sensing techniques in structural
+health monitoring. Moreover, the occurrence of keywords such as "damage detection" and "damage localization"
+emphasizes the overall purpose of identifying and mitigating structural vulnerabilities.
 
 \begin{figure*}[h] % Use figure* instead of figure for two-column spanning
   \centering
@@ -336,6 +420,14 @@ That the closer as show in \autoref{fig:coOccuranceNetwork} \lipsum[1]
   \label{fig:coOccuranceNetwork}
 \end{figure*}
 
+Understanding the co-occurrence patterns of these keywords is crucial for informing our research strategy.
+By discerning the relationships between different concepts and techniques, we can better tailor our approach
+to developing a portable NDT device for efficient SHM.
+For example, leveraging insights from keywords like "digital image correlation" and "electro mechanical impedance (EMI)"
+can inform the design and functionality of our device, potentially enhancing its efficacy in detecting and diagnosing
+structural damage.
+
+
 \begin{figure*}[h] % Use figure* instead of figure for two-column spanning
   \centering
   \includegraphics[width=\textwidth]{./word_cloud/filtered/co_occurance_network_shm.jpg}
@@ -343,8 +435,16 @@ That the closer as show in \autoref{fig:coOccuranceNetwork} \lipsum[1]
   \label{fig:coOccuranceNetworkSHM}
 \end{figure*}
 
-However, unlike with \autoref{fig:coOccuranceNetworkSHM} \lipsum[1]
+The identification of clustering within the keyword network, such as the delineation of clusters representing cost,
+time, and algorithm-related topics, offers valuable insights into the overarching themes and
+methodologies prevalent in the field. This information can guide our research focus and help us navigate
+the multidimensional aspects of structural health monitoring and nondestructive testing.
 
+Overall, the co-occurrence network analysis serves as a roadmap for our research,
+enabling us to pinpoint key areas of inquiry, identify potential collaborations,
+and tailor our approach to address the most pressing challenges in the field of structural
+health monitoring and nondestructive testing. By leveraging these insights, we can enhance the relevance,
+effectiveness, and impact of our research endeavors.
 
 
 
@@ -365,7 +465,7 @@ as shown in \autoref{tbl:differentiation}.
   \label{tbl:differentiation}
   \resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}
       \toprule
-      \multirow{2}{*}{Ref} & \multicolumn{7}{c}{NDT/SHM Testing Method} & \multicolumn{3}{c}{Defect Detection} \\
+      \multirow{2}{*}{\textbf{Ref}} & \multicolumn{7}{c}{\textbf{NDT/SHM Testing Method}} & \multicolumn{3}{c}{\textbf{Defect Detection}} \\
       \cline{2-11}
       & Ultrasonic & Radiographic & Eddy Current & Visual & Magnetic Particle & Liquid Penetrant & Acoustic Emission & Surface & Subsurface & Internal \\
       \midrule
@@ -409,7 +509,12 @@ as shown in \autoref{tbl:differentiation}.
 \end{table*}
 
 
-
+\begin{figure*}[h] % Use figure* instead of figure for two-column spanning
+  \centering
+  \includegraphics[width=0.9\textwidth]{./word_cloud/filtered/word_cloud.png}
+  \caption{Collated Article Content Word Cloud}
+  \label{fig:coOccuranceNetworkSHM}
+\end{figure*}
 
 
 
@@ -687,8 +792,8 @@ streamlining data visualization, and facilitating user interactions. However, ch
 design, usability testing, and accommodating user diversity in HMI applications.
 
 
-\section{Research Gap}
-This section presents the Research Gap of the included studies. 
+\section{Discussion and Future Directions} 
+This section discusses the probable future direction and research gap of the included studies. 
 
 \subsection{Advances in Portable Heavy Metal Ion Sensors}
 The development of portable sensing devices for in situ detection of heavy metal ions is highlighted,
@@ -821,7 +926,6 @@ Portable and Cost-effective Sensing Technologies: Research on portable and cost-
 
 Standardization and Validation: There is a need for standardization of SHM and NDT methodologies, protocols, and performance metrics to ensure consistency, comparability, and reliability of results across different studies and applications. Additionally, validation of new SHM and NDT techniques through experimental testing and field trials is essential to demonstrate their effectiveness and applicability in real-world scenarios. 
 
-%==== screening cut ======
 
 
 
@@ -831,27 +935,26 @@ Standardization and Validation: There is a need for standardization of SHM and N
 
 
 
-\section{Discussion and Future Directions}  %  Discussion and future directions
-The research question of this capstone project is to explore the potential of a portable,
-NDT device in overcoming the limitations of traditional SHM methods,
-and the literature review reveals significant advancements in sensor technologies and data analytics for NDT and SHM,
-while also highlighting limitations and research gaps that need to be addressed for optimal infrastructure safety.
-The findings from the literature review have significant implications for the development of the
-proposed portable NDT device, highlighting the need for advancements in sensor technologies,
-data analytics, and overcoming limitations and research gaps for optimal infrastructure safety.
-The next steps in this capstone project involve the design and development of a portable
-NDT device, with considerations for sensor selection, data acquisition and processing methods,
-and the expected outcomes include improved efficiency and accessibility in SHM.
 
 
 
 
 \section{Conclusion}
-\lipsum[1]
+In conclusion, this comprehensive literature review on Structural Health Monitoring (SHM)
+and Nondestructive Testing (NDT) presents a thorough examination of various
+methodologies \cite{de_menezes_defect_2021} \cite{tang_explainable_2023} \cite{wu_internal_2024} \cite{zhang_spatial_2023} \cite{zhang_structural_2021},
+technologies, and research gaps in the field. Through the analysis of numerous studies,
+it becomes evident that the integration of intelligent technologies such as the
+Internet of Things (IoT) \cite{rehman_advancing_2024},
+artificial intelligence (AI) \cite{moradi_intelligent_2023},
+and machine learning (ML) holds immense promise for advancing SHM and NDT practices.
+However, it is equally clear that further research is needed to effectively harness the potential of these technologies
+and address existing challenges. Moreover, this review highlights the importance of standardization, validation,
+and the development of advanced sensor networks to ensure the reliability and applicability of SHM and NDT
+techniques across diverse real-world scenarios. As we look ahead, it is imperative for researchers and practitioners
+to collaborate in addressing these research gaps and advancing the field towards safer and more efficient structural
+monitoring and testing processes.
 
-
-\section*{Acknowledgment}
-The authors would like to thank \lipsum[1]
 
 
 
