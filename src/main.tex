@@ -11,6 +11,7 @@
 
 \usepackage{siunitx}              % SI Units
 \usepackage{booktabs}             % Tables
+\usepackage{multirow}
 \usepackage{caption}              % Captions
 
 
@@ -22,6 +23,8 @@
 \renewcommand\thesubsectiondis{\AlphAlph{\value{subsection}}.}
 \renewcommand\thesubsection{\mbox{\thesection-\AlphAlph{\value{subsection}}}}
 % ====================================================
+
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 \usetikzlibrary{mindmap}
 \usetikzlibrary{positioning}
@@ -215,12 +218,6 @@ NDT device for efficient structural health monitoring as shown in \autoref{fig:f
 \label{fig:flowchartFilter}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\columnwidth]{./img/split_glowchart.png}
-  \caption{Outline of the Review Methodology}
-  \label{fig:paperSearch}
-\end{figure}
 
 
 \begin{figure}
@@ -264,7 +261,7 @@ As shown in \autoref{tbl:bibliometricRanking} \lipsum[1]
   \centering
   \caption{Bibliometric Ranking Of Journals}
   \label{tbl:bibliometricRanking}
-  \begin{tabular}{lcc}
+  \resizebox{\columnwidth}{!}{\begin{tabular}{lcc}
 
       \toprule
       \textbf{Journal} & \textbf{No. of Documents} & \textbf{No. of Citations} \\
@@ -274,7 +271,7 @@ As shown in \autoref{tbl:bibliometricRanking} \lipsum[1]
       Heh Periodicals                                       & 1     & 195   \\
       Sensors in thw World                                  & 1     & 515   \\
       \bottomrule
-  \end{tabular}
+  \end{tabular}}
 \end{table}
 
 It is evident in \autoref{tbl:bibliometricRanking} \lipsum[1]
@@ -357,7 +354,66 @@ However, unlike with \autoref{fig:coOccuranceNetworkSHM} \lipsum[1]
 This section presents an extensive discussion on the application of NDT
 and SHM methods in various studies to improve infrastructure integrity and reliability.
 Among the 35 extracted articles, a wide range of NDT SHM methods have been observed, categorized under different main topics,
-as shown in \autoref{}. 
+as shown in \autoref{tbl:differentiation}. 
+
+
+
+
+\begin{table*}[htbp]
+  \centering
+  \caption{Differentiation Table of NDT/SHM Methods for Infrastructure Monitoring}
+  \label{tbl:differentiation}
+  \resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccc}
+      \toprule
+      \multirow{2}{*}{Ref} & \multicolumn{7}{c}{NDT/SHM Testing Method} & \multicolumn{3}{c}{Defect Detection} \\
+      \cline{2-11}
+      & Ultrasonic & Radiographic & Eddy Current & Visual & Magnetic Particle & Liquid Penetrant & Acoustic Emission & Surface & Subsurface & Internal \\
+      \midrule
+      \cite{kang_robotic-based_2021} & \checkmark & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark & \checkmark \\
+      \cite{rufai_cure_2020} & \checkmark & \checkmark & \checkmark &  &  & \checkmark &  & \checkmark & \checkmark &  \\
+      \cite{yifei_structure_2023} & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark & \checkmark & \checkmark \\
+      \cite{sanchez-romate_structural_2021} & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  & \checkmark \\
+      \cite{willmann_health_2023} & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  & \checkmark \\
+      \cite{de_sa_rodrigues_probability_2023} & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  & \checkmark \\
+      \cite{zhang_structural_2021} & \checkmark & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  & \checkmark \\
+      \cite{zhang_defect_2020} & \checkmark & \checkmark &  & \checkmark &  &  &  & \checkmark & \checkmark & \checkmark \\
+      \cite{ziaja_shm_2021} & \checkmark & \checkmark &  & \checkmark &  &  &  & \checkmark &  & \checkmark \\
+      \cite{parida_comparative_2023} & \checkmark & \checkmark &  & \checkmark &  &  &  & \checkmark &  & \checkmark \\
+      \cite{fang_structural_2024} & \checkmark & \checkmark &  & \checkmark &  &  &  &  & \checkmark & \checkmark \\
+      \cite{rehman_advancing_2024} & \checkmark & \checkmark &  &  & \checkmark &  &  &  & \checkmark &  \\
+      \cite{carcione_demodulation_2020} & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark & \checkmark \\
+      \cite{tang_explainable_2023} & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark & \checkmark \\
+      \cite{moradi_intelligent_2023} & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  \\
+      \cite{zhang_spatial_2023} & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark & \checkmark &  \\
+      \cite{de_menezes_defect_2021} & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark &  & \checkmark \\
+      \cite{pachon_evaluation_2020} & \checkmark &  & \checkmark &  & \checkmark &  &  &  & \checkmark & \checkmark \\
+      \cite{han_crack_2021} & \checkmark &  & \checkmark &  & \checkmark &  &  &  & \checkmark & \checkmark \\
+      \cite{prasad_real-time_2024} & \checkmark &  &  &  & \checkmark &  & \checkmark & \checkmark &  &  \\
+      \cite{lambinet_measurement_2022} &  & \checkmark & \checkmark & \checkmark &  &  &  &  & \checkmark & \checkmark \\
+      \cite{cawley_guided_2024} &  & \checkmark & \checkmark &  &  & \checkmark &  & \checkmark &  & \checkmark \\
+      \cite{wang_fatigue_2023} &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark & \checkmark &  \\
+      \cite{yang_broadband_2023} &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark \\
+      \cite{balasubramaniam_multi_2022} &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark \\
+      \cite{katunin_identification_2021} &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark &  & \checkmark \\
+      \cite{dong_ultrasonic_2022} &  & \checkmark &  & \checkmark &  & \checkmark &  &  & \checkmark &  \\
+      \cite{carani_impact_2022} &  &  & \checkmark & \checkmark &  & \checkmark &  & \checkmark & \checkmark &  \\
+      \cite{wu_internal_2024} &  &  & \checkmark &  & \checkmark & \checkmark &  & \checkmark & \checkmark & \checkmark \\
+      \cite{bevan_automated_2022} &  &  & \checkmark &  & \checkmark & \checkmark &  & \checkmark & \checkmark &  \\
+      \cite{li_physics-informed_2023} &  &  & \checkmark &  & \checkmark & \checkmark &  & \checkmark &  & \checkmark \\
+      \cite{meng_effects_2021} &  &  & \checkmark &  & \checkmark &  & \checkmark & \checkmark & \checkmark & \checkmark \\
+      \cite{zima_damage_2021} &  &  & \checkmark &  & \checkmark &  & \checkmark & \checkmark &  & \checkmark \\
+      \cite{tabjula_sparse_2023} &  &  & \checkmark &  &  &  &  & \checkmark & \checkmark &  \\
+      \cite{katunin_modeling_2021} &  &  &  & \checkmark &  & \checkmark & \checkmark & \checkmark &  & \checkmark \\
+      \bottomrule
+  \end{tabular}}
+\end{table*}
+
+
+
+
+
+
+
 
 \subsection{Wireless Sensor Networks (WSNs) Applications in SHM and NDT}
 Wireless Sensor Networks (WSNs) play a crucial role in enabling remote monitoring and real-time data collection for
