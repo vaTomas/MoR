@@ -1,8 +1,10 @@
 \documentclass[journal, a4paper]{IEEEtran}
 
+
 \usepackage[hidelinks]{hyperref}  % PDF Hyperlinks
 
 \usepackage{enumitem}             % Lists
+\usepackage{hanging}              % indent
 
 \usepackage{lipsum}               % Lorem Ipsum
 
@@ -15,12 +17,11 @@
 \usepackage{graphicx}             % Images or Graphics
 \usepackage{pgfplots}             % Graphs and Plots
 
-% Subsection goes A, B, C, ... AA
+% === Change subsection from A B C to 1.1 1.2 1.3 ===
 \usepackage{alphalph}
-
-\renewcommand\thesubsectiondis{\AlphAlph{\value{subsection}}.}% for the headings in the text
-\renewcommand\thesubsection{\mbox{\thesection-\AlphAlph{\value{subsection}}}}% for the ToC, for example  
-% ==========
+\renewcommand\thesubsectiondis{\AlphAlph{\value{subsection}}.}
+\renewcommand\thesubsection{\mbox{\thesection-\AlphAlph{\value{subsection}}}}
+% ====================================================
 
 \usetikzlibrary{mindmap}
 \usetikzlibrary{positioning}
@@ -100,9 +101,9 @@ of various infrastructure systems \cite{katam_review_2023}, NDT is a method that
 of structural degradation without causing actual damage to the structure itself \cite{katam_review_2023},
 and a portable NDT device is a tool that enhances the efficiency and accessibility of SHM \cite{hassani_systematic_2023} \cite{katam_review_2023}.
 Various NDT methods, each with its unique advantages and disadvantages,
-offer diverse approaches to assessing structural integrity without causing damage \cite{khedmatgozar_dolati_non-destructive_2021} \cite{verma_review_2013}.
+offer diverse approaches to assessing structural integrity without causing damage \cite{khedmatgozar_dolati_non-destructive_2021}.
 Existing portable NDT devices, while offering promising functionalities,
-also present certain limitations that need to be addressed for optimal SHM \cite{hassani_systematic_2023} \cite{zhu_review_2011}.
+also present certain limitations that need to be addressed for optimal SHM \cite{hassani_systematic_2023}.
 Relevant theories and frameworks related to structural safety, damage detection,
 and sensor technology play a crucial role in enhancing the effectiveness of SHM
 and ensuring the safety of various infrastructures \cite{chen_sensor_2021} \cite{gharehbaghi_critical_2022}.
@@ -358,19 +359,18 @@ and SHM methods in various studies to improve infrastructure integrity and relia
 Among the 35 extracted articles, a wide range of NDT SHM methods have been observed, categorized under different main topics,
 as shown in \autoref{}. 
 
-
 \subsection{Wireless Sensor Networks (WSNs) Applications in SHM and NDT}
 Wireless Sensor Networks (WSNs) play a crucial role in enabling remote monitoring and real-time data collection for
 structural health assessment and nondestructive testing. These networks facilitate continuous monitoring of structural
 parameters such as strain, temperature, and vibration, offering insights into the condition of infrastructure assets.
-Several studies ([1]. [7]. [23]) have demonstrated the effectiveness of WSNs in enhancing the data’s reliability, energy
+Several studies \cite{kang_robotic-based_2021} \cite{katunin_modeling_2021} \cite{fang_structural_2024} have demonstrated the effectiveness of WSNs in enhancing the data’s reliability, energy
 efficiency, and scalability in SHM and NDT applications. However, challenges remain in optimizing sensor deployment,
 ensuring seamless communication, and addressing power consumption issues.
 
 \subsection{Artificial Intelligence (AI) in Damage Detection and Predictive Maintenance}
 Artificial Intelligence (AI) algorithms, including machine learning and deep learning techniques,
 are increasingly being employed for damage detection and predictive maintenance in civil engineering structures.
-Studies ([2], [4]. [29]) have shown promising results in leveraging AI for anomaly detection,
+Studies \cite{yang_broadband_2023} \cite{cawley_guided_2024} \cite{zhang_defect_2020} have shown promising results in leveraging AI for anomaly detection,
 pattern recognition and structural identification.
 However, further research is needed to validate the robustness and generalizability of
 AI models across diverse structural types and environment conditions.
@@ -378,7 +378,8 @@ AI models across diverse structural types and environment conditions.
 \subsection{Internet of Things (IoT) for Real-time Monitoring and Data Analytics}
 The Internet of Things (IoT) offers opportunities for real-time monitoring and data analytics in SHM and NDT domains.
 Utilizing interconnected sensors nodes and cloud-based platforms, IoT systems enable remote access to structural data
-and facilitate predictive maintenance strategies. Research ([3],[17],[23]) highlights the potential of IoT in enhancing
+and facilitate predictive maintenance strategies.
+Research \cite{prasad_real-time_2024} \cite{willmann_health_2023} \cite{fang_structural_2024} highlights the potential of IoT in enhancing
 the decision-making, optimizing maintenance schedules and reducing downtime through procactive interventions.
 Nevertheless, concerns persist regarding data security, interoperability, and standardization in IoT-enabled
 infrastructure monitoring.
@@ -387,21 +388,24 @@ infrastructure monitoring.
 \subsection{Robotics for Remote Inspection and Maintenance}
 Robotics technology is revolutionizing inspection and maintenance practices in the field of civil engineering.
 Robotic systems equipped with sensors and actuators enable remote inspection of inaccessible or hazardous infrastructure assets
- minimizing human intervention and ensuring safety ([5], [27], [33]). Despite significant advancements,
+ minimizing human intervention and ensuring safety 
+ \cite{moradi_intelligent_2023} \cite{zhang_structural_2021} \cite{yifei_structure_2023}. Despite significant advancements,
  challenges remain in developing robust robotic platforms capable of navigating complex environments
  and performing intricate tasks with high precision.
 
 \subsection{Optical Sensors for Crack Detection and Strain Measurement}
 Optical sensors offer non-contact and high-resolution capabilities for crack detection and strain measurement
-in structural components. Studies ([6], [13], [18]) have demonstrated the utility of optical techniques such as
-digital image correlation (DIC) and fiber optic sensing in capturing fine-scale deformations and detecting surface defects
+in structural components.
+Studies \cite{ziaja_shm_2021} \cite{sanchez-romate_structural_2021} \cite{tang_explainable_2023} have demonstrated the utility of optical techniques such as
+digital image correlation (DIC) and fiber optic sensing in capturing fine-scale deformations and detecting surface defects.
 However, limitations persist in optical sensor deployment, especially in harsh environmental conditions and dynamic loading
 scenarios. 
 
 \subsection{Acoustic Emission Testing (AET) for Structural Integrity Assessment}
 Acoustic Emission Testing (AET) is a valuable technique for assessing structural integrity and detecting active defects
 in civil engineering structures. By monitoring transient stress waves emitted during deformation, AET systems provide
-insights into the onset and progression of damage mechanisms ([7], [14], [28]). Research indicates the potential of AET
+insights into the onset and progression of damage mechanisms
+\cite{katunin_modeling_2021} \cite{zhang_spatial_2023} \cite{li_physics-informed_2023}. Research indicates the potential of AET
 in localizing defects, characterizing material properties, and assessing the structural health of critical infrastructure
 components. However, challenges remain in distinguishing relevant signals from background noise and interpreting complex
 waveforms accurately.
@@ -409,7 +413,7 @@ waveforms accurately.
 \subsection{Vibration Analysis for Modal Analysis and Fatigue Assessment}
 Vibration analysis techniques are widely employed for modal analysis and fatigue assessment of civil engineering structures.
 By studying the dynamic response of structures to external forces, vibration-based methods offer valuable insights into structural
-behavior and performance ([8], [21], [29]). Studies have utilized vibration sensors and accelerometers to identify natural
+behavior and performance \cite{carcione_demodulation_2020} \cite{de_sa_rodrigues_probability_2023} \cite{zhang_defect_2020}. Studies have utilized vibration sensors and accelerometers to identify natural
 frequencies, damping ratios, and mode shapes, aiding in structural health monitoring and damage detection efforts.
 However, challenges persist in distinguishing between environmental vibrations and structural responses,
 particularly in noisy operational environments. 
@@ -418,7 +422,8 @@ particularly in noisy operational environments.
 Ground Penetrating Radar (GPR) is a non-invasive geophysical method used for subsurface imaging and
 material characterization in civil engineering applications. By emitting electromagnetic pulses into the
 ground and analyzing reflected signals, GPR systems provide insights into subsurface features, voids,
-and material properties ([9], [18], [25]). Research highlights the effectiveness of GPR in detecting buried utilities,
+and material properties \cite{balasubramaniam_multi_2022} \cite{tang_explainable_2023} \cite{katunin_identification_2021}.
+Research highlights the effectiveness of GPR in detecting buried utilities,
 assessing pavement condition, and evaluating concrete structures for voids and delaminations. However,
 challenges remain in interpreting GPR data accurately, especially in complex geological settings and heterogeneous materials.
 
@@ -426,7 +431,8 @@ challenges remain in interpreting GPR data accurately, especially in complex geo
 Ultrasonic Testing (UT) is a widely used non-destructive testing technique for thickness measurement
 and flaw detection in civil engineering materials. By transmitting high-frequency sound waves into the
 material and analyzing their reflections, UT systems enable precise evaluation of internal defects,
-corrosion, and thickness variations ([10], [14], [28]). Studies have demonstrated the versatility of UT
+corrosion, and thickness variations \cite{lambinet_measurement_2022} \cite{zhang_spatial_2023} \cite{li_physics-informed_2023}.
+Studies have demonstrated the versatility of UT
 in assessing the integrity of steel structures, concrete elements, and composite materials.
 However, challenges persist in calibrating UT instruments, interpreting echo signals, and ensuring inspection coverage
 in complex geometries. 
@@ -435,7 +441,8 @@ in complex geometries.
 Thermography techniques offer non-contact and rapid inspection capabilities for heat
 signature analysis and delamination detection in civil engineering structures.
 By detecting temperature differentials and thermal anomalies, thermographic systems provide valuable
-insights into subsurface defects, moisture intrusion, and material degradation ([11], [15], [22]).
+insights into subsurface defects, moisture intrusion, and material degradation
+\cite{rehman_advancing_2024} \cite{parida_comparative_2023} \cite{wu_internal_2024}.
 Research indicates the potential of thermography in identifying hidden defects, detecting water ingress,
 and evaluating structural performance under varying environmental conditions.
 However, challenges remain in standardizing thermographic procedures, mitigating environmental influences,
@@ -445,14 +452,15 @@ and interpreting thermal data accurately.
 Electromagnetic Testing (ET) techniques are commonly used for corrosion assessment, conductivity measurement,
 and material characterization in civil engineering applications. By inducing electromagnetic fields into the material
 and analyzing their interactions, ET systems enable detection of surface cracks, corrosion pits, and subsurface anomalies
-([12], [16], [24]). Studies have demonstrated the effectiveness of ET in evaluating steel structures, pipelines, and reinforced
+\cite{carani_impact_2022} \cite{rufai_cure_2020} \cite{meng_effects_2021}. Studies have demonstrated the effectiveness of ET in evaluating steel structures, pipelines, and reinforced
 concrete elements for corrosion damage and material loss. However, challenges persist in differentiating between superficial
 defects and subsurface anomalies, especially in heavily reinforced structures and congested environments.
 
 \subsection{Digital Image Correlation (DIC) for Deformation Analysis and Stress/Strain Measurement}
 Digital Image Correlation (DIC) techniques offer high-resolution capabilities for deformation analysis and
 stress/strain measurement in civil engineering materials. By correlating images of the material surface before
-and after loading, DIC systems provide quantitative data on displacements, strains, and material behavior ([13], [20], [26]).
+and after loading, DIC systems provide quantitative data on displacements, strains, and material behavior
+\cite{sanchez-romate_structural_2021} \cite{pachon_evaluation_2020} \cite{de_menezes_defect_2021}.
 Research highlights the potential of DIC in characterizing material properties, evaluating structural performance,
 and validating numerical models. However, challenges remain in optimizing camera configurations, ensuring image accuracy,
 and processing large datasets efficiently. 
@@ -461,7 +469,7 @@ and processing large datasets efficiently.
 Fiber Optic Sensors (FOS) offer distributed sensing capabilities and immunity to electromagnetic interference,
 making them ideal for structural health monitoring and environmental sensing applications. By exploiting the
 optical properties of fiber cables, FOS systems enable real-time measurement of strain, temperature, and pressure
-along the entire length of the sensor ([14], [17], [27]). Studies have demonstrated the effectiveness of FOS in
+along the entire length of the sensor \cite{zhang_spatial_2023} \cite{willmann_health_2023} \cite{zhang_structural_2021}. Studies have demonstrated the effectiveness of FOS in
 detecting structural damage, monitoring civil infrastructure, and enhancing asset management practices. However,
 challenges persist in sensor installation, signal demodulation, and long-term reliability in harsh operating conditions. 
 
@@ -469,14 +477,14 @@ challenges persist in sensor installation, signal demodulation, and long-term re
 Environmental monitoring systems play a crucial role in assessing weather impacts, environmental conditions,
 and corrosion rates in civil engineering structures. By collecting data on temperature, humidity, and air quality,
 environmental sensors provide insights into corrosion mechanisms, material degradation, and structural performance
-([15], [19], [31]). Research highlights the potential of environmental monitoring in predicting corrosion rates,
+\cite{parida_comparative_2023} \cite{dong_ultrasonic_2022} \cite{wang_fatigue_2023}. Research highlights the potential of environmental monitoring in predicting corrosion rates,
 optimizing maintenance strategies, and mitigating environmental risks. However, challenges remain in sensor calibration,
 data interpretation, and integration with existing monitoring networks. 
 
 \subsection{Structural Health Index (SHI) for Quantitative Assessment and Structural Reliability}
 Structural Health Index (SHI) methods offer quantitative assessment capabilities and reliability measures for civil
 engineering structures. By aggregating multi-parameter data into a single index value, SHI systems enable holistic evaluation
-of structural integrity, performance, and resilience ([16], [20], [30]). Studies have demonstrated the utility of SHI
+of structural integrity, performance, and resilience \cite{rufai_cure_2020} \cite{pachon_evaluation_2020} \cite{zima_damage_2021}. Studies have demonstrated the utility of SHI
 in prioritizing maintenance activities, optimizing resource allocation, and improving decision-making processes.
 However, challenges persist in defining universal SHI metrics, establishing threshold values,
 and validating index performance across diverse asset types. 
@@ -484,7 +492,7 @@ and validating index performance across diverse asset types.
 \subsection{Data Fusion Techniques for Multimodal Sensing Integration and Enhanced Decision-making}
 Data fusion techniques play a crucial role in integrating multi-source data and enhancing decision-making
 capabilities in SHM and NDT applications. By combining information from diverse sensors and modalities, data fusion
-systems enable comprehensive analysis, anomaly detection, and fault diagnosis ([17], [27], [34]).
+systems enable comprehensive analysis, anomaly detection, and fault diagnosis \cite{willmann_health_2023} \cite{zhang_structural_2021} \cite{bevan_automated_2022}.
 Research highlights the potential of data fusion in improving situational awareness, reducing false alarms,
 and optimizing maintenance strategies. However, challenges remain in data integration, sensor synchronization,
 and algorithm development for real-time applications. 
@@ -493,7 +501,7 @@ and algorithm development for real-time applications.
 Remote sensing technologies offer geospatial monitoring capabilities and terrain analysis tools for civil
 infrastructure management. By capturing aerial imagery, LiDAR data, and satellite observations,
 remote sensing systems provide valuable insights into terrain features, land use patterns, and environmental changes
-([18], [23], [31]). Research indicates the potential of remote sensing in assessing landslide risks,
+\cite{tang_explainable_2023} \cite{fang_structural_2024} \cite{wang_fatigue_2023}. Research indicates the potential of remote sensing in assessing landslide risks,
 monitoring coastal erosion, and mapping urban sprawl. However, challenges persist in data processing,
 image classification, and accuracy assessment in complex terrain settings.
 
@@ -501,14 +509,14 @@ image classification, and accuracy assessment in complex terrain settings.
 Condition assessment methods play a crucial role in evaluating structural integrity, identifying defects,
 and predicting lifecycle performance of civil engineering assets. By employing visual inspection, non-destructive testing,
 and material sampling techniques, condition assessment systems provide insights into asset condition, degradation mechanisms,
-and maintenance needs ([19], [28], [33]). Research highlights the potential of condition assessment in prioritizing repair
+and maintenance needs \cite{dong_ultrasonic_2022} \cite{li_physics-informed_2023} \cite{yifei_structure_2023}. Research highlights the potential of condition assessment in prioritizing repair
 activities, extending asset lifespan, and optimizing lifecycle costs. However, challenges remain in standardizing assessment
 protocols, quantifying deterioration rates, and integrating assessment results with asset management systems.
 
 \subsection{Reliability Analysis for Probabilistic Modeling and Risk Assessment}
 Reliability analysis methods offer probabilistic modeling capabilities and risk assessment tools for civil engineering structures.
 By quantifying uncertainties, failure probabilities, and consequence magnitudes, reliability analysis
-systems enable informed decision-making, risk mitigation, and resilience planning ([20], [22], [30]).
+systems enable informed decision-making, risk mitigation, and resilience planning \cite{pachon_evaluation_2020} \cite{wu_internal_2024} \cite{zima_damage_2021}.
 Studies have demonstrated the utility of reliability analysis in prioritizing maintenance actions,
 optimizing design criteria, and enhancing asset performance under uncertain conditions.
 However, challenges persist in uncertainty quantification, model validation, and decision support integration.
@@ -517,7 +525,7 @@ However, challenges persist in uncertainty quantification, model validation, and
 Structural dynamics methods play a crucial role in resonance analysis, modal identification, and dynamic
 response prediction for civil engineering structures. By studying the vibrational behavior of structures under
 varying loads, structural dynamics systems provide insights into natural frequencies, mode shapes, and damping
-characteristics ([21], [29], [31]). Research indicates the potential of structural dynamics in assessing structural
+characteristics \cite{de_sa_rodrigues_probability_2023} \cite{zhang_defect_2020} \cite{wang_fatigue_2023}. Research indicates the potential of structural dynamics in assessing structural
 stability, optimizing vibration control measures, and enhancing occupant comfort. However, challenges remain in model
 calibration, boundary condition estimation, and modal parameter identification in complex structures.
 
@@ -525,7 +533,7 @@ calibration, boundary condition estimation, and modal parameter identification i
 Risk-Based Inspection (RBI) methods offer prioritization capabilities and cost optimization tools for inspection
 and maintenance planning in civil engineering assets. By assessing risk factors, consequence probabilities,
 and inspection costs, RBI systems enable rational decision-making, resource allocation, and risk mitigation
-strategies ([22], [30], [32]). Studies have demonstrated the utility of RBI in optimizing inspection intervals,
+strategies \cite{wu_internal_2024} \cite{zima_damage_2021} \cite{han_crack_2021}. Studies have demonstrated the utility of RBI in optimizing inspection intervals,
 reducing downtime, and enhancing safety performance. However, challenges persist in risk modeling, uncertainty quantification,
 and data integration for RBI implementation.
 
@@ -534,7 +542,7 @@ and data integration for RBI implementation.
 Wireless communication systems play a crucial role in enabling real-time data transmission and ensuring
 network reliability in civil infrastructure monitoring applications. By utilizing wireless protocols, sensor
 networks, and cloud-based platforms, wireless communication systems enable remote access to structural data,
-timely alerts, and seamless connectivity ([23], [27], [33]). Research highlights the potential of wireless
+timely alerts, and seamless connectivity \cite{fang_structural_2024} \cite{zhang_structural_2021} \cite{yifei_structure_2023}. Research highlights the potential of wireless
 communication in enhancing situational awareness, optimizing data collection, and facilitating collaborative
 decision-making. However, challenges remain in signal interference, bandwidth limitations, and cybersecurity
 concerns in wireless infrastructure deployments.
@@ -543,7 +551,7 @@ concerns in wireless infrastructure deployments.
 Advanced materials testing methods offer characterization capabilities and durability assessment tools for
 civil engineering materials and components. By employing mechanical testing, chemical analysis, and microstructural
 examination techniques, materials testing systems provide insights into material properties, performance limitations,
-and failure mechanisms ([24], [26], [34]). Studies have demonstrated the utility of materials testing in evaluating
+and failure mechanisms \cite{meng_effects_2021} \cite{de_menezes_defect_2021} \cite{bevan_automated_2022}. Studies have demonstrated the utility of materials testing in evaluating
 composite structures, assessing material degradation, and optimizing material selection criteria.
 However, challenges persist in standardizing testing protocols, interpreting test results, and addressing
 material variability in real-world applications.
@@ -552,14 +560,14 @@ material variability in real-world applications.
 Fluid mechanics analysis methods play a crucial role in assessing hydraulic structures, analyzing flow dynamics,
 and optimizing water management practices in civil engineering projects. By employing computational fluid dynamics (CFD),
 numerical modeling, and empirical analysis techniques, fluid mechanics systems provide insights into fluid behavior,
-pressure distribution, and turbulence effects ([25], [28], [32]). Research highlights the potential of fluid mechanics
+pressure distribution, and turbulence effects \cite{katunin_identification_2021} \cite{li_physics-informed_2023} \cite{han_crack_2021}. Research highlights the potential of fluid mechanics
 analysis in optimizing channel design, mitigating flood risks, and enhancing hydraulic performance. However, challenges
 persist in model calibration, boundary condition specification, and uncertainty quantification in fluid flow simulations.
 
 \subsection{3D Printing Technology for Prototyping and Customized Part Fabrication}
 3D printing technology offers rapid prototyping capabilities and customized part fabrication tools for civil
 engineering applications. By utilizing additive manufacturing processes, 3D printing systems enable on-demand
-production of complex geometries, lightweight structures, and customized components ([26], [31], [33]). Studies
+production of complex geometries, lightweight structures, and customized components \cite{de_menezes_defect_2021} \cite{wang_fatigue_2023} \cite{yifei_structure_2023}. Studies
 have demonstrated the utility of 3D printing in construction, infrastructure repair, and material recycling.
 However, challenges remain in material selection, printing resolution, and structural integrity verification in
 3D printed structures. 
@@ -568,7 +576,7 @@ However, challenges remain in material selection, printing resolution, and struc
 Structural Health Monitoring (SHM) systems play a crucial role in providing integrated monitoring solutions and
 facilitating sensor deployment for civil infrastructure assets. By combining sensor technologies, data acquisition
 systems, and analytical tools, SHM systems enable continuous monitoring of structural behavior, performance trends,
-and health indicators ([27], [29], [34]). Research highlights the potential of SHM in detecting damage, assessing
+and health indicators \cite{zhang_structural_2021} \cite{zhang_defect_2020} \cite{bevan_automated_2022}. Research highlights the potential of SHM in detecting damage, assessing
 deterioration rates, and predicting future performance. However, challenges persist in sensor calibration, data
 interpretation, and integration with existing asset management systems.
 
@@ -578,7 +586,7 @@ interpretation, and integration with existing asset management systems.
 Non-Destructive Testing (NDT) techniques play a crucial role in evaluating material properties, detecting defects,
 and assessing structural integrity in civil engineering components. By utilizing electromagnetic, acoustic, and
 optical methods, NDT systems enable rapid inspection, characterization, and quality control of infrastructure assets
-([28], [32], [34]). Studies have demonstrated the utility of NDT in detecting corrosion, delamination, and subsurface defects.
+\cite{li_physics-informed_2023} \cite{han_crack_2021} \cite{bevan_automated_2022}. Studies have demonstrated the utility of NDT in detecting corrosion, delamination, and subsurface defects.
 However, challenges persist in sensor standardization, inspection coverage,
 and data interpretation in diverse operatingconditions.
 
@@ -586,14 +594,14 @@ and data interpretation in diverse operatingconditions.
 Structural identification methods play a crucial role in model updating, damage quantification, and performance evaluation of
 civil engineering structures. By utilizing experimental modal analysis, system identification, and inverse modeling techniques,
 structural identification systems enable calibration of numerical models, validation of design assumptions, and prediction of
-dynamic behavior ([29], [31], [33]). Research highlights the potential of structural identification in assessing damage,
+dynamic behavior \cite{zhang_defect_2020} \cite{wang_fatigue_2023} \cite{yifei_structure_2023}. Research highlights the potential of structural identification in assessing damage,
 identifying critical modes, and optimizing structural response. However, challenges persist in sensor placement,
 excitation control, and model validation in complex structural systems.
 
 \subsection{Risk Management Strategies for Mitigation Planning and Resilience Enhancement}
 Risk management strategies play a crucial role in planning mitigation measures and enhancing resilience in civil
 engineering projects. By assessing hazards, vulnerabilities, and consequences, risk management systems enable informed 
-decision-making, resource allocation, and adaptive planning ([30], [32], [34]).
+decision-making, resource allocation, and adaptive planning \cite{zima_damage_2021} \cite{han_crack_2021} \cite{bevan_automated_2022}.
 Studies have demonstrated the utility of risk management in optimizing design criteria,
 prioritizing investments, and reducing socio-economic impacts. However, challenges persist in risk assessment,
 uncertainty quantification, and stakeholder engagement in risk management processes.
@@ -601,7 +609,7 @@ uncertainty quantification, and stakeholder engagement in risk management proces
 \subsection{Smart Infrastructure Systems for Adaptive Structures and Self-healing Materials}
 Smart infrastructure systems play a crucial role in enabling adaptive structures and self-healing
 materials for civil engineering applications. By integrating sensing, actuation, and control technologies,
-smart infrastructure systems enable real-time monitoring, autonomous response, and adaptive behavior ([31], [33], [34]).
+smart infrastructure systems enable real-time monitoring, autonomous response, and adaptive behavior \cite{wang_fatigue_2023} \cite{yifei_structure_2023} \cite{bevan_automated_2022}.
 Research highlights the potential of smart infrastructure in optimizing structural performance, reducing maintenance costs,
 and enhancing sustainability. However, challenges persist in sensor integration, energy management, and long-term reliability
 in smart infrastructure deployments.
@@ -609,7 +617,7 @@ in smart infrastructure deployments.
 \subsection{Energy Harvesting Techniques for Self-powered Sensors and Sustainability Integration}
 Energy harvesting techniques play a crucial role in enabling self-powered sensors and integrating sustainability
 principles into civil engineering applications. By utilizing renewable energy sources, energy harvesting systems
-enable autonomous operation, extended sensor lifespans, and reduced environmental footprint ([32], [33], [34]).
+enable autonomous operation, extended sensor lifespans, and reduced environmental footprint \cite{han_crack_2021} \cite{yifei_structure_2023} \cite{bevan_automated_2022}.
 Studies have demonstrated the utility of energy harvesting in remote monitoring, off-grid applications,
 and environmental sensing. However, challenges persist in energy conversion efficiency, power management,
 and scalability of energy harvesting solutions.
@@ -618,66 +626,150 @@ and scalability of energy harvesting solutions.
 Human-Machine Interaction (HMI) plays a crucial role in enabling operator feedback systems and intuitive
 user interfaces for civil infrastructure monitoring applications. By incorporating user preferences, cognitive
 ergonomics, and interactive design principles, HMI systems enhance situational awareness, decision-making,
-and user engagement ([33], [34]). Research highlights the potential of HMI in optimizing sensor interfaces,
+and user engagement \cite{yifei_structure_2023} \cite{bevan_automated_2022}. Research highlights the potential of HMI in optimizing sensor interfaces,
 streamlining data visualization, and facilitating user interactions. However, challenges persist in interface
 design, usability testing, and accommodating user diversity in HMI applications.
 
 
+\section{Research Gap}
+This section presents the Research Gap of the included studies. 
+
+\subsection{Advances in Portable Heavy Metal Ion Sensors}
+The development of portable sensing devices for in situ detection of heavy metal ions is highlighted,
+focusing on optical and electrochemical methods.
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Further investigation is needed to enhance the sensitivity, selectivity, and cost-effectiveness of portable sensors for real-time and rapid detection of heavy metal ions in the field.
+\end{description}
+
+
+\subsection{A review of the research and application of deep learning-based computer vision in structural damage detection} 
+The review examines the potential of deep learning-based computer vision techniques for structural damage detection. 
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] More empirical studies are required to validate the effectiveness and reliability of deep learning algorithms in practical structural damage detection scenarios.
+\end{description}
+
+
+\subsection{Big Data Analytics and Structural Health Monitoring: A Statistical Pattern Recognition-Based Approach}
+The study proposes a statistical pattern recognition-based approach for structural health monitoring using big data analytics. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Further validation and optimization of the proposed method are needed to address the complex and time-consuming procedures associated with feature extraction and classification in big data analytics for structural health monitoring.
+\end{description}
+
+
+\subsection{The Future of NDT with Wireless Sensors, AI and IoT}
+The paper explores the potential of wireless sensors, artificial intelligence (AI), and the Internet of Things (IoT) in non-destructive testing (NDT). 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] There is a need for practical demonstrations and case studies to illustrate the effectiveness and benefits of integrating wireless sensors, AI, and IoT in NDT workflows.
+\end{description}
+
+\subsection{Development of Intelligent Technologies in SHM on the Innovative Diagnosis in Civil Engineering—A Comprehensive Review} 
+The study offers a comprehensive review of intelligent technologies such as IoT, AI, and NDT in structural health monitoring (SHM), emphasizing their potential for innovative diagnosis in civil engineering applications. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Further research is needed to explore the applications of intelligent technologies across different types of buildings and infrastructures, including residential, commercial, industrial, historical, and special structures. Additionally, there is a need to develop standardized protocols and frameworks for interoperability and data sharing among diverse stakeholders in the construction and maintenance industries.
+\end{description}
+
+
+\subsection{Wireless Sensor Networks for Structural Health Monitoring: Recent Advances and Future Perspectives}
+The study discusses recent advancements in wireless sensor networks for structural health monitoring (SHM), highlighting their potential to revolutionize monitoring and maintenance practices for civil infrastructure.
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] More research is needed to address challenges related to energy efficiency, data fusion, and scalability in wireless sensor networks for SHM, indicating a need for advancements to enhance the efficiency and reliability of monitoring systems and facilitate their widespread adoption in civil infrastructure applications. 
+\end{description}
+
+
+\subsection{Wireless Sensor Networks for Structural Health Monitoring: A Comprehensive Review}
+The comprehensive review provides insights into the advancements and challenges of wireless sensor networks for structural health monitoring (SHM), emphasizing their importance in ensuring the safety and integrity of civil infrastructure. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Despite advancements, there is still a need for comprehensive studies focusing on specific aspects such as energy efficiency, data fusion techniques, and scalability to fully exploit the potential of wireless sensor networks in civil infrastructure monitoring. Further research is required to address these challenges and unlock the full benefits of SHM technologies.
+\end{description}
+
+ 
+\subsection{Application of Wireless Sensor Networks in Structural Health Monitoring: A Review}
+The review examines the application of wireless sensor networks in structural health monitoring (SHM), highlighting their potential to revolutionize monitoring practices and enhance the resilience of civil infrastructure. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Despite the potential of wireless sensor networks in SHM, there is a need for further research to address challenges related to sensor deployment, data reliability, and communication protocols. Additionally, exploring novel applications in different types of civil infrastructure could further expand the scope and impact of SHM technologies.
+\end{description}
+
+
+\subsection{Structural Health Monitoring of Civil Infrastructure Using Wireless Sensor Networks: A Comprehensive Review}
+The comprehensive review discusses the potential of wireless sensor networks in structural health monitoring (SHM) of civil infrastructure, highlighting their role in ensuring the safety, durability, and resilience of buildings and bridges. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] More comprehensive studies are needed to explore the potential of wireless sensor networks in SHM across various types of civil infrastructure, indicating a need for advancements to address challenges related to energy efficiency, data fusion, and scalability. Further research in these areas could enhance the effectiveness and applicability of SHM technologies in real-world scenarios.
+\end{description}
+
+
+\subsection{A review of the research and application of deep learning-based computer vision in structural damage detection}
+The review provides insights into the research landscape and practical applications of deep learning-based computer vision techniques in structural damage detection, highlighting their potential for automated and accurate assessment of structural integrity. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] More empirical studies are required to validate the effectiveness and reliability of deep learning algorithms in practical structural damage detection scenarios, indicating a need for further research to ensure the robustness and generalizability of these techniques in diverse real-world settings.
+\end{description}
+
+
+\subsection{Big Data Analytics and Structural Health Monitoring: A Statistical Pattern Recognition-Based Approach}
+The study presents a statistical pattern recognition-based approach for big data analytics in structural health monitoring, aiming to improve the efficiency and accuracy of structural anomaly detection and condition assessment. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Further validation and optimization of the proposed method are needed to address the complex and time-consuming procedures associated with feature extraction and classification in big data analytics for structural health monitoring, indicating a need for advancements to streamline the process and enhance its applicability across various monitoring scenarios.
+\end{description}
+
+ 
+\subsection{Rationale and Design of a Wearable Cardiopulmonary Monitoring System for Improving the Efficiency of Critical Care Monitoring}
+The research outlines the rationale and design considerations behind a wearable cardiopulmonary monitoring system, highlighting its potential to enhance the efficiency and effectiveness of critical care monitoring in intensive care unit (ICU) settings. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Empirical studies are necessary to assess the efficacy, accuracy, and user experience of the proposed wearable monitoring system in real-world ICU settings, underscoring the need for further research to validate its performance and address potential challenges or limitations.
+\end{description}
+
+
+\subsection{The Future of NDT with Wireless Sensors, AI and IoT}
+The study explores the integration of wireless sensors, artificial intelligence (AI), and the Internet of Things (IoT) in non-destructive testing (NDT), envisioning a future where these technologies revolutionize NDT workflows and enhance inspection capabilities. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] There is a need for practical demonstrations and case studies to illustrate the effectiveness and benefits of integrating wireless sensors, AI, and IoT in NDT workflows, indicating a gap in empirical evidence and real-world implementations to validate the proposed advancements and address practical challenges.
+\end{description}
+
+
+\subsection{Shaping the future of Structural Health Monitoring with IoT sensors}
+The study discusses the potential of IoT sensors in shaping the future of structural health monitoring (SHM), highlighting their capabilities for real-time data collection, analysis, and decision-making in monitoring structural integrity. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Further exploration is required to address synchronization requirements, clock-drift issues, and network aggregation capacity in wireless sensor networks for SHM, suggesting a need for advancements to improve the reliability and scalability of IoT-based monitoring systems.
+\end{description}
+ 
+
+\subsection{The future of ultrasonic NDT with IoT}
+The research explores the potential of integrating the Internet of Things (IoT) with ultrasonic non-destructive testing (NDT) techniques, envisioning a future where IoT-enabled devices enhance the efficiency, accuracy, and accessibility of ultrasonic inspections. 
+
+\begin{description}[style=standard, font=\normalfont]
+  \item[Research gap:] Despite the potential benefits, there are regulatory, organizational, and technological barriers hindering the widespread adoption of IoT-based solutions in ultrasonic NDT, indicating a need for further research and efforts to overcome these barriers and promote digital transformation in NDT markets.  
+\end{description}
+
+
+Overall, based on the analysis of the studies related to structural health monitoring (SHM) and non-destructive testing (NDT), several research gaps can be identified. 
+
+Integration of Intelligent Technologies: Many studies discuss the potential of integrating intelligent technologies such as the Internet of Things (IoT), artificial intelligence (AI), and machine learning (ML) into SHM and NDT practices. However, there is a need for further research on how to effectively integrate these technologies to maximize their benefits in enhancing the safety, reliability, and efficiency of structural monitoring and testing processes. 
+
+Advanced Sensor Networks: While wireless sensor networks (WSNs) are recognized as a promising technology for continuous and real-time monitoring of structural parameters, there is a research gap in developing more advanced sensor networks with improved accuracy, reliability, and adaptability to different structural environments. Research is needed to address challenges such as sensor placement optimization, energy efficiency, and data transmission robustness. 
+
+Data Analytics and Interpretation: Several studies discuss the importance of data analytics and interpretation techniques for extracting meaningful insights from the vast amount of data generated by SHM and NDT systems. However, there is a need for more research on developing advanced algorithms and models for data processing, anomaly detection, and predictive maintenance in structural monitoring applications. 
+
+Portable and Cost-effective Sensing Technologies: Research on portable and cost-effective sensing technologies is crucial for enabling on-site and in-situ structural health monitoring and non-destructive testing. Further advancements are needed in developing compact, lightweight, and affordable sensors with high sensitivity and specificity for detecting structural defects, damage, and material properties. 
+
+Standardization and Validation: There is a need for standardization of SHM and NDT methodologies, protocols, and performance metrics to ensure consistency, comparability, and reliability of results across different studies and applications. Additionally, validation of new SHM and NDT techniques through experimental testing and field trials is essential to demonstrate their effectiveness and applicability in real-world scenarios. 
+
+%==== screening cut ======
 
 
 
 
-
-
-\subsection{Sensor Technology for SHM}
-Recent advancements in sensor technology, such as miniaturization, low-power consumption, and wireless communication,
-have significantly enhanced the capabilities of portable NDT devices,
-making them more efficient and accessible for SHM applications \cite{hassani_systematic_2023} \cite{valeske_next_2020}.
-The integration of different sensor types and their data fusion approaches is crucial
-for comprehensive SHM, as it allows for a more accurate\
-and holistic assessment of structural integrity \cite{broer_need_2022} \cite{azimi_data-driven_2020}.
-Sensor technology limitations, such as accuracy, precision, and robustness,
-can significantly impact the performance and reliability of devices,
-necessitating further research and development in this area \cite{varshney_challenges_2021} \cite{moore_iot_2020}.
-
-
-\subsection{Data Acquisition and Analysis for SHM}
-Methods for data acquisition, processing, and analysis from portable NDT
-devices have seen significant advancements, with research highlighting the use of optical
-and electrochemical methods for in situ detection of trace heavy metal ions \cite{hu_advances_2023}.
-Approaches for real-time data monitoring, damage detection algorithms, and data visualization techniques
-are integral to the effective application of SHM, with advancements in these areas
-significantly enhancing the capabilities of portable NDT devices \cite{azimi_data-driven_2020} \cite{lingxin_review_2022}.
-Efficient SHM decision-making is often challenged by issues related
-to data management and interpretation, such as the complexity of handling big data and the time-consuming procedures
-for feature extraction and statistical decision-making \cite{entezami_big_2020}.
-
-
-\subsection{Applications and Case Studies}
-Portable NDT devices have been successfully applied in various SHM
-scenarios, including bridges, buildings, and industrial structures, demonstrating their versatility and effectiveness
-\cite{parsy_shaping_2018} \cite{azimi_data-driven_2020}.
-The cost-effectiveness, ease of use, and reliability of portable NDT
-devices in real-world settings have been demonstrated, with the modularized structure of the device offering
-cost-effectiveness through the reusability of high-cost modules and enhancing convenience by eliminating the
-necessity for multiple separate monitoring devices \cite{lee_rationale_2023}.
-Emerging trends in portable NDT technology for SHM
-include the integration of intelligent technologies such as the Internet of Things (IoT), Artificial Intelligence (AI),
-and advancements in sensor technologies, which have led to remarkable improvements in SHM for various applications
-including residential, commercial, industrial, historical, and special buildings \cite{vijayan_development_2023} \cite{hassani_systematic_2023}. 
-
-
-\subsection{Synthesis and Critique}
-The literature review reveals significant advancements in sensor technologies and data analytics
-for NDT and SHM,
-while also highlighting limitations and research gaps that need to be addressed for optimal infrastructure safety \cite{vijayan_development_2023} \cite{hassani_systematic_2023}.
-Existing portable NDT devices have shown effectiveness in SHM,
-however, their performance can be influenced by factors such as sensor accuracy, data processing capabilities,
-and environmental conditions \cite{vijayan_development_2023} \cite{hassani_systematic_2023}.
-Opportunities for improvement and future development in portable NDT devices
-for SHM lie in the integration of advanced technologies such as embedded systems,
-wireless sensors, cloud computing, and artificial intelligence for improved analytics, error-free inference,
-and efficient troubleshooting \cite{meier_future_2018}.
 
 
 
@@ -690,7 +782,7 @@ and the literature review reveals significant advancements in sensor technologie
 while also highlighting limitations and research gaps that need to be addressed for optimal infrastructure safety.
 The findings from the literature review have significant implications for the development of the
 proposed portable NDT device, highlighting the need for advancements in sensor technologies,
-data analytics, and overcoming limitations and research gaps for optimal infrastructure safety \cite{udell_future_2018} \cite{meier_future_2018}.
+data analytics, and overcoming limitations and research gaps for optimal infrastructure safety.
 The next steps in this capstone project involve the design and development of a portable
 NDT device, with considerations for sensor selection, data acquisition and processing methods,
 and the expected outcomes include improved efficiency and accessibility in SHM.
@@ -717,7 +809,7 @@ The authors would like to thank \lipsum[1]
 % === Bibliography ===
 
 \bibliographystyle{IEEEtran}
-\bibliography{bibtex/bib/export}
+\bibliography{bibtex/bib/references}
 
 % === End of Bibliography ===
 

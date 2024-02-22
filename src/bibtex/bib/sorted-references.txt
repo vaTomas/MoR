@@ -1,0 +1,118 @@
+[1] L.-H. Kang and D.-H. Han, “Robotic-based terahertz imaging for nondestructive testing of a PVC pipe cap,” NDT & E International, vol. 123, p. 102500, Oct. 2021, doi: 10.1016/j.ndteint.2021.102500. 
+ references 24 citations 8
+
+[2] Y. Yang, X. Wei, W. Yao, and J. Lan, “Broadband electrical impedance matching of sandwiched piezoelectric ultrasonic transducers for structural health monitoring of the rail in-service,” Sensors and Actuators A: Physical, vol. 364, p. 114819, Dec. 2023, doi: 10.1016/j.sna.2023.114819. 
+ references 31 citations 1
+
+[3] S. Prasad, D. Kumar, S. Kalra, and A. Khandelwal, “A real-time feature-based clustering approach for vibration-based SHM of large structures,” Measurement, vol. 227, p. 114222, Mar. 2024, doi: 10.1016/j.measurement.2024.114222.
+ references 45 citations 0
+
+[4] P. Cawley, “Guided waves in long range nondestructive testing and structural health monitoring: Principles, history of applications and prospects,” NDT & E International, vol. 142, p. 103026, Mar. 2024, doi: 10.1016/j.ndteint.2023.103026  
+ references 345 citations 1 
+
+[5] M. Moradi, A. Broer, J. Chiachío, R. Benedictus, T. H. Loutas, and D. Zarouchas, “Intelligent health indicator construction for prognostics of composite structures utilizing a semi-supervised deep neural network and SHM data,” Engineering Applications of Artificial Intelligence, vol. 117, p. 105502, Jan. 2023, doi: 10.1016/j.engappai.2022.105502.
+references 54 citations 14
+
+[6] D. Ziaja and P. Nazarko, “SHM system for anomaly detection of bolted joints in engineering structures,” Structures, vol. 33, pp. 3877–3884, Oct. 2021, doi: 10.1016/j.istruc.2021.06.086. 
+references 34 citations 16
+
+[7] A. Katunin, A. Wronkowicz-Katunin, W. Danek, and M. Wyleżoł, “Modeling of a realistic barely visible impact damage in composite structures based on NDT techniques and numerical simulations,” Composite Structures, vol. 267, p. 113889, Jul. 2021, doi: 10.1016/j.compstruct.2021.113889.
+references 55 citations 17
+
+
+[8] A. Carcione, P. Blanloeuil, and M. Veidt, “Demodulation technique to identify nonlinear characteristics of vibro-acoustic NDT measurements,” Journal of Sound and Vibration, vol. 466, p. 115014, Feb. 2020, doi: 10.1016/j.jsv.2019.115014.
+references 43 citations 6
+
+[9] K. Balasubramaniam, S. Sikdar, R. Soman, and P. Malinowski, “Multi step structural health monitoring approaches in debonding assessment in a sandwich honeycomb composite structure using ultrasonic guided waves,” Measurement, vol. 194, p. 111057, May 2022, doi: 10.1016/j.measurement.2022.111057.
+references 52 citations 9
+
+[10] F. Lambinet and Z. Sharif Khodaei, “Measurement platform for structural health monitoring application of large scale structures,” Measurement, vol. 190, p. 110675, Feb. 2022, doi: 10.1016/j.measurement.2021.110675.  
+ references 74 citations 21
+
+[11] S. U. Rehman, M. Usman, M. H. Y. Toor, and Q. A. Hussaini, “Advancing structural health monitoring: A vibration-based IoT approach for remote real-time systems,” Sensors and Actuators A: Physical, vol. 365, p. 114863, Jan. 2024, doi: 10.1016/j.sna.2023.114863.
+ references 54 citaations 0
+
+[12] L. B. Carani, T. D. Martin, V. O. Eze, and O. I. Okoli, “Impact sensing and localization in composites structures with embedded mechanoluminescence-perovskite sensors,” Sensors and Actuators A: Physical, vol. 346, p. 113843, Oct. 2022, doi: 10.1016/j.sna.2022.113843.
+ references 46 citaations 0
+
+[13] X. F. Sánchez-Romate, C. García, J. Rams, M. Sánchez, and A. Ureña, “Structural health monitoring of a CFRP structural bonded repair by using a carbon nanotube modified adhesive film,” Composite Structures, vol. 270, p. 114091, Aug. 2021, doi: 10.1016/j.compstruct.2021.114091.
+ references 35 citations 16
+
+[14] Y. Zhang, M. Radzieński, R. Soman, and W. Ostachowicz, “Spatial domain localization method for multi-damage in plate-like structure based on coefficient matrix of reflected guided waves,” Journal of Sound and Vibration, vol. 552, p. 117636, May 2023, doi: 10.1016/j.jsv.2023.117636.
+ references 57 citations 0
+
+[15] L. Parida and S. Moharana, “Comparative assessment of a multitudinal piezo arrangement for non-destructive evaluation of construction steel: An experimental study,” Measurement, vol. 222, p. 113592, Nov. 2023, doi: 10.1016/j.measurement.2023.113592.
+references 54 citations 1
+
+
+[16] O. Rufai, N. Chandarana, M. Gautam, P. Potluri, and M. Gresil, “Cure monitoring and structural health monitoring of composites using micro-braided distributed optical fibre,” Composite Structures, vol. 254, p. 112861, Dec. 2020, doi: 10.1016/j.compstruct.2020.112861.
+references 62 citations 36
+
+
+[17] E. Willmann, B. Boll, M. Scheel, R. H. Meißner, and B. Fiedler, “Health monitoring of CFRP laminates under cyclic loading via vibro-acoustic modulation based measurements,” Composite Structures, vol. 308, p. 116696, Mar. 2023, doi: 10.1016/j.compstruct.2023.116696.
+ references 72 citations 3
+
+[18] R. Tang, S. Zhang, W. Wu, S. Zhang, and Z. Han, “Explainable deep learning based ultrasonic guided wave pipe crack identification method,” Measurement, vol. 206, p. 112277, Jan. 2023, doi: 10.1016/j.measurement.2022.112277.
+references 44 citations 7
+
+[19] Y. Dong, Q. Yue, D. Cheng, Z. Zhou, R. Liang, and X. Dong, “Ultrasonic transducer with BiScO3-PbTiO3-based ceramics of operating temperature over 400°C,” Sensors and Actuators A: Physical, vol. 340, p. 113528, Jun. 2022, doi: 10.1016/j.sna.2022.113528.
+ references 33 citations 10
+
+[20] P. Pachón et al., “Evaluation of optimal sensor placement algorithms for the Structural Health Monitoring of architectural heritage. Application to the Monastery of San Jerónimo de Buenavista (Seville, Spain),” Engineering Structures, vol. 202, p. 109843, Jan. 2020, doi: 10.1016/j.engstruct.2019.109843.
+ references 48 citations 28
+
+[21] F. de Sá Rodrigues, I. N. Giannakeas, Z. Sharif Khodaei, and F. M. H. Aliabadi, “Probability based damage detection on a composite fuselage panel based on large data set of guided wave signals,” NDT & E International, vol. 139, p. 102924, Oct. 2023, doi: 10.1016/j.ndteint.2023.102924.
+references 40 citations 0
+
+[22] D. Wu, L. Yin, Y. Gao, Z. Miao, and Y. Wang, “Internal crack detection based on thermal excitation enabled digital image correlation method,” Measurement, vol. 227, p. 114262, Mar. 2024, doi: 10.1016/j.measurement.2024.114262.
+ references 41 citation 0
+
+[23] F. Fang, L. Ouyang, Y. Meng, Q. Xu, J. Chen, and L. Qiu, “Structural adaptive damage detection under uncertainty based on probability dissimilarity and moving average control chart,” Measurement, vol. 225, p. 114023, Feb. 2024, doi: 10.1016/j.measurement.2023.114023.
+references 63 citation 1
+
+[24] X. Meng et al., “Effects of filler type and aging on self-sensing capacity of cement paste using eddy current-based nondestructive detection,” Measurement, vol. 182, p. 109708, Sep. 2021, doi: 10.1016/j.measurement.2021.109708.
+references 49 citation 12
+
+[25] A. Katunin, “Identification of structural damage using S-transform from 1D and 2D mode shapes,” Measurement, vol. 173, p. 108656, Mar. 2021, doi: 10.1016/j.measurement.2020.108656.
+references 71 citation 16
+
+[26] V. G. S. de Menezes, G. S. C. Souza, D. Vandepitte, V. Tita, and R. de Medeiros, “Defect and damage detection in filament wound carbon composite cylinders: A new numerical-experimental methodology based on vibrational analyses,” Composite Structures, vol. 276, p. 114548, Nov. 2021, doi: 10.1016/j.compstruct.2021.114548.
+ 2021  references 47 citation 7
+
+[27] L. Zhang, G. Qiu, and Z. Chen, “Structural health monitoring methods of cables in cable-stayed bridge: A review,” Measurement, vol. 168, p. 108343, Jan. 2021, doi: 10.1016/j.measurement.2020.108343.
+references 93 citation 111
+
+[28] X. Li, Y. Wang, X. Wan, B. Tang, Y. Qin, and C. Xu, “Physics-informed deep filtering of ultrasonic guided waves for incipient defect inspection of large-scale square tube structures,” Journal of Sound and Vibration, vol. 567, p. 118066, Dec. 2023, doi: 10.1016/j.jsv.2023.118066.
+references 55 citation 0
+
+[29] W. Zhang, C. Wang, F. Xie, and H. Zhang, “Defect imaging curved surface based on flexible eddy current array sensor,” Measurement, vol. 151, p. 107280, Feb. 2020, doi: 10.1016/j.measurement.2019.107280.
+ references 18 citation 40
+
+[30] B. Zima, “Damage detection in plates based on Lamb wavefront shape reconstruction,” Measurement, vol. 177, p. 109206, Jun. 2021, doi: 10.1016/j.measurement.2021.109206.
+references 44 citation 15
+
+[31] M. Wang et al., “Fatigue damage monitoring of composite laminates based on acoustic emission and digital image correlation techniques,” Composite Structures, vol. 321, p. 117239, Oct. 2023, doi: 10.1016/j.compstruct.2023.117239.
+references 52 citation 1
+
+[32] T. Han, G. Wu, and Y. Lu, “Crack monitoring using short-gauged Brillouin fiber optic sensor,” Measurement, vol. 179, p. 109461, Jul. 2021, doi: 10.1016/j.measurement.2021.109461.
+references 42 citation 11
+
+
+[33] L. YiFei et al., “Structure damage identification in dams using sparse polynomial chaos expansion combined with hybrid K-means clustering optimizer and genetic algorithm,” Engineering Structures, vol. 283, p. 115891, May 2023, doi: 10.1016/j.engstruct.2023.115891.
+ references 87 citation 21
+
+
+
+[34] R. L. T. Bevan and A. J. Croxford, “Automated detection and characterisation of defects from multiview ultrasonic imaging,” NDT & E International, vol. 128, p. 102628, Jun. 2022, doi: 10.1016/j.ndteint.2022.102628.
+ references 29 citation 7
+
+[35] J. Tabjula, S. Kanakambaran, P. Rajagopal, and B. Srinivasan, “Sparse sampled visualization of ultrasonic guided waves for defect identification in plate structures,” NDT & E International, vol. 138, p. 102890, Sep. 2023, doi: 10.1016/j.ndteint.2023.102890.
+  references 26 citation 0
+
+
+
+
+
+
+
+
